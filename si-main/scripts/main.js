@@ -1,0 +1,71 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const toggle = document.querySelector('.header__toggle');
+  const nav = document.querySelector('.header__nav');
+  if (toggle && nav) {
+    toggle.addEventListener('click', () => {
+      const visible = getComputedStyle(nav).display !== 'none';
+      nav.style.display = visible ? 'none' : 'block';
+    });
+  }
+
+  const root = document.documentElement;
+  const buttons = Array.from(document.querySelectorAll('.font-selector__btn'));
+  const applyFont = (value) => {
+    if (!value) return;
+    root.setAttribute('data-font', value);
+    buttons.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.font === value)));
+  };
+  const savedFont = localStorage.getItem('fontPref') || 'cn';
+  applyFont(savedFont);
+  buttons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const value = btn.dataset.font;
+      if (!value) return;
+      document.body.classList.add('font-switching');
+      applyFont(value);
+      localStorage.setItem('fontPref', value);
+      setTimeout(() => document.body.classList.remove('font-switching'), 150);
+      const langMap = { cn: 'zh', en: 'en', jp: 'ja' };
+      const nextLng = langMap[value] || 'zh';
+      localStorage.setItem('langPref', nextLng);
+      if (window.i18next) {
+        i18next.changeLanguage(nextLng);
+      }
+    });
+  });
+
+  const updateContent = () => {
+    if (!window.i18next) return;
+    document.querySelectorAll('[data-i18n]').forEach((el) => {
+      const key = el.getAttribute('data-i18n');
+      if (!key) return;
+      const text = i18next.t(key);
+      const isInput = el.tagName === 'INPUT' || el.tagName === 'TEXTAREA';
+      const attr = el.getAttribute('data-i18n-attr');
+      if (isInput && attr) {
+        el.setAttribute(attr, text);
+      } else {
+        el.textContent = text;
+      }
+    });
+  };
+
+  const savedLang = localStorage.getItem('langPref') || 'zh';
+  if (window.i18next && window.i18nextHttpBackend) {
+    i18next
+      .use(i18nextHttpBackend)
+      .init({
+        lng: savedLang,
+        fallbackLng: 'zh',
+        debug: false,
+        backend: { loadPath: '/assets/locales/messages_{{lng}}.json' }
+      }, updateContent);
+    i18next.on('languageChanged', updateContent);
+    i18next.on('missingKey', (lng, ns, key) => {
+      console.warn('[i18n] missing key:', key, 'for lng:', lng);
+    });
+  } else {
+    // 框架不可用时的降级：不影响页面展示
+  }
+});
+

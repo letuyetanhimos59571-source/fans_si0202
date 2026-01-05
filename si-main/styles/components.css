@@ -1,0 +1,18 @@
+.card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: var(--space-md);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+}
+
+.hero {
+  height: 480px; /* 首页主视觉占位高度，待替换为参考站值 */
+  background: #ddd;
+}
+

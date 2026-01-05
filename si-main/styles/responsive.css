@@ -1,0 +1,25 @@
+/* 断点占位：待替换为参考站实际断点数值 */
+
+@media (max-width: 1199px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 991px) {
+  .header__toggle { display: inline-block; }
+  .header__nav { display: none; } /* 移动端折叠导航占位 */
+  .footer__cols { grid-template-columns: 1fr 1fr; }
+  .hero { height: 360px; }
+  .font-selector span { display: none; }
+  .font-selector__btn { padding: 6px 8px; font-size: 12px; }
+}
+
+@media (max-width: 767px) {
+  .footer__cols { grid-template-columns: 1fr; }
+  .grid { grid-template-columns: 1fr; }
+  .hero { height: 280px; }
+}
+
+@media (max-width: 575px) {
+  .btn { padding: 8px 12px; }
+}
+

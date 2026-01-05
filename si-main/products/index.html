@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>产品列表</title>
+<link href="/styles/variables.css" rel="stylesheet"/>
+<link href="/styles/base.css" rel="stylesheet"/>
+<link href="/styles/layout.css" rel="stylesheet"/>
+<link href="/styles/header.css" rel="stylesheet"/>
+<link href="/styles/components.css" rel="stylesheet"/>
+<link href="/styles/pages/product.css" rel="stylesheet"/>
+<link href="/styles/footer.css" rel="stylesheet"/>
+<link href="/styles/responsive.css" rel="stylesheet"/>
+<script src="https://unpkg.com/i18next@22.5.0/dist/umd/i18next.min.js"></script>
+<script src="https://unpkg.com/i18next-http-backend@2.2.1/i18nextHttpBackend.min.js"></script>
+</head>
+<body>
+<header class="header" id="site-header">
+<div class="header__inner">
+<a class="header__logo" href="/">DAG Silicone</a>
+<nav aria-label="主导航" class="header__nav">
+<ul class="nav__list">
+<li><a data-i18n="nav.home" href="/">Home</a></li>
+
+<li><a data-i18n="nav.products" href="/products/">Products</a></li>
+<li><a data-i18n="nav.about" href="/about/">About</a></li>
+
+
+<li><a data-i18n="nav.environment" href="/environment/">Environment</a></li>
+<li><a data-i18n="nav.contact" href="/contact/">Contact</a></li>
+</ul>
+</nav>
+<div class="header__actions">
+<div aria-labelledby="font-label" class="font-selector" role="group">
+<span id="font-label">字体</span>
+<button aria-pressed="false" class="font-selector__btn" data-font="cn">CN</button>
+<button aria-pressed="false" class="font-selector__btn" data-font="en">EN</button>
+<button aria-pressed="false" class="font-selector__btn" data-font="jp">JP</button>
+</div>
+<a class="btn btn--primary" data-i18n="actions.inquiry" href="#inquiry">Inquiry</a>
+<div class="social">
+<a aria-label="Follow Us" class="social__icon" href="#"></a>
+</div>
+<button aria-label="打开菜单" class="header__toggle"></button>
+</div>
+</div>
+</header>
+<main id="products">
+<!-- 产品索引占位：列表与筛选控件，注释主图尺寸与卡片宽度（待测量） -->
+<section class="container" id="product-index">
+<div class="grid">
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="Glass universal Lid with drainer" src="/assets/images/products/product_1.jpg"/>
+</div>
+<h3>Glass universal Lid with drainer</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="UT0081 Glass Bowl with silicone Lid" src="/assets/images/products/product_2.jpg"/>
+</div>
+<h3>UT0081 Glass Bowl with silicone Lid</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="UT0080 Glass Bowl with silicone Lid" src="/assets/images/products/product_3.jpg"/>
+</div>
+<h3>UT0080 Glass Bowl with silicone Lid</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="UT0079 Glass Bowl with silicone Lid" src="/assets/images/products/product_4.jpg"/>
+</div>
+<h3>UT0079 Glass Bowl with silicone Lid</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="Glass Plate" src="/assets/images/products/product_5.jpg"/>
+</div>
+<h3>Glass Plate</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="Glass Bowl" src="/assets/images/products/product_6.jpg"/>
+</div>
+<h3>Glass Bowl</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="wholesale silicone tea infuser | UT121 Fruit Infuser" src="/assets/images/products/product_7.jpg"/>
+</div>
+<h3>wholesale silicone tea infuser | UT121 Fruit Infuser</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="silicone cup | SV021 Travelling Cup" src="/assets/images/products/product_8.jpg"/>
+</div>
+<h3>silicone cup | SV021 Travelling Cup</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="Silicone storage containers | UT118 Silicone Storage Bag" src="/assets/images/products/product_9.jpg"/>
+</div>
+<h3>Silicone storage containers | UT118 Silicone Storage Bag</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="silicone straws | UT102 Bend Straw" src="/assets/images/products/product_10.jpg"/>
+</div>
+<h3>silicone straws | UT102 Bend Straw</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="silicone straws | UT104 Bend Bamboo Straw" src="/assets/images/products/product_11.jpg"/>
+</div>
+<h3>silicone straws | UT104 Bend Bamboo Straw</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="silicone straws | UT105 Twist Straw" src="/assets/images/products/product_12.jpg"/>
+</div>
+<h3>silicone straws | UT105 Twist Straw</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="silicone straws | UT105 Twist Straw" src="/assets/images/products/product_13.jpg"/>
+</div>
+<h3>silicone straws | UT105 Twist Straw</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="silicone straws | UT106 Straight Bamboo Straw" src="/assets/images/products/product_14.jpg"/>
+</div>
+<h3>silicone straws | UT106 Straight Bamboo Straw</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="Silicone straw holder | UT123 Flower Straw Marker/Holder" src="/assets/images/products/product_15.jpg"/>
+</div>
+<h3>Silicone straw holder | UT123 Flower Straw Marker/Holder</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="silicone straws | UT107 Hat Straw Marker" src="/assets/images/products/product_16.jpg"/>
+</div>
+<h3>silicone straws | UT107 Hat Straw Marker</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="silicone straws | UT108 Glasses Straw Marker" src="/assets/images/products/product_17.jpg"/>
+</div>
+<h3>silicone straws | UT108 Glasses Straw Marker</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="silicone straws | UT109 Beard Straw Marker" src="/assets/images/products/product_18.jpg"/>
+</div>
+<h3>silicone straws | UT109 Beard Straw Marker</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="silicone straws | UT110 Bow Tie Straw Marker" src="/assets/images/products/product_19.jpg"/>
+</div>
+<h3>silicone straws | UT110 Bow Tie Straw Marker</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="silicone straws | UT111 Crown Straw Marker" src="/assets/images/products/product_20.jpg"/>
+</div>
+<h3>silicone straws | UT111 Crown Straw Marker</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="silicone straws | UT112 Mask Straw Marker" src="/assets/images/products/product_21.jpg"/>
+</div>
+<h3>silicone straws | UT112 Mask Straw Marker</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="silicone straws | UT113 Lips Straw Marker" src="/assets/images/products/product_22.jpg"/>
+</div>
+<h3>silicone straws | UT113 Lips Straw Marker</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="silicone straws | UT114 Bowknot Straw Marker" src="/assets/images/products/product_23.jpg"/>
+</div>
+<h3>silicone straws | UT114 Bowknot Straw Marker</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="SV029 Silicone Kids Water Bottle | Drinking bottle" src="/assets/images/products/product_24.jpg"/>
+</div>
+<h3>SV029 Silicone Kids Water Bottle | Drinking bottle</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="UT062 Silicone cup High transparency | Silicone Wine Cup" src="/assets/images/products/product_25.jpg"/>
+</div>
+<h3>UT062 Silicone cup High transparency | Silicone Wine Cup</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="KP017 Silicone bib  | silicone baby bib" src="/assets/images/products/product_26.jpg"/>
+</div>
+<h3>KP017 Silicone bib  | silicone baby bib</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="TT038 Baby gift set | silicone baby feeding set" src="/assets/images/products/product_27.jpg"/>
+</div>
+<h3>TT038 Baby gift set | silicone baby feeding set</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="TT085 &amp; TT086  Bowl With Oval Straw | silicone bowl with lid" src="/assets/images/products/product_28.jpg"/>
+</div>
+<h3>TT085 &amp; TT086  Bowl With Oval Straw | silicone bowl with lid</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="TT088，TT090 &amp; TT091 Sticky base tableware set | best silicone utensil set" src="/assets/images/products/product_29.jpg"/>
+</div>
+<h3>TT088，TT090 &amp; TT091 Sticky base tableware set | best silicone utensil set</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="KP018 Sushi Pattern Bib | silicone baby bib" src="/assets/images/products/product_30.jpg"/>
+</div>
+<h3>KP018 Sushi Pattern Bib | silicone baby bib</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="KP019 Bread Pattern Bib | silicone baby bib" src="/assets/images/products/product_31.jpg"/>
+</div>
+<h3>KP019 Bread Pattern Bib | silicone baby bib</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="KP020 Pudding Pattern Bib | silicone baby bib" src="/assets/images/products/product_32.jpg"/>
+</div>
+<h3>KP020 Pudding Pattern Bib | silicone baby bib</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="TT052 Novel silicone plate" src="/assets/images/products/product_33.jpg"/>
+</div>
+<h3>TT052 Novel silicone plate</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="TT053 Novel Silicone Plate with Suction Base" src="/assets/images/products/product_34.jpg"/>
+</div>
+<h3>TT053 Novel Silicone Plate with Suction Base</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="TT050 &amp; TT050-A Silicone Baby Bowl | BPA Free silicone baby bowls" src="/assets/images/products/product_35.jpg"/>
+</div>
+<h3>TT050 &amp; TT050-A Silicone Baby Bowl | BPA Free silicone baby bowls</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="TT044 Suction plate in sun shape" src="/assets/images/products/product_36.jpg"/>
+</div>
+<h3>TT044 Suction plate in sun shape</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="TT045 Star Shape Silicone Suction Plate" src="/assets/images/products/product_37.jpg"/>
+</div>
+<h3>TT045 Star Shape Silicone Suction Plate</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="TT046 Moon Shape Silicone Plate with Suction Base | silicone suction plate" src="/assets/images/products/product_38.jpg"/>
+</div>
+<h3>TT046 Moon Shape Silicone Plate with Suction Base | silicone suction plate</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="TT021 Baby Suction Tableware Set | silicone suction plate" src="/assets/images/products/product_39.jpg"/>
+</div>
+<h3>TT021 Baby Suction Tableware Set | silicone suction plate</h3>
+</a>
+</article>
+<article class="card">
+<a href="">
+<div class="image-wrapper">
+<img alt="TT014 Silicone Baby Carton Bowl | silicone baby bowls" src="/assets/images/products/product_40.jpg"/>
+</div>
+<h3>TT014 Silicone Baby Carton Bowl | silicone baby bowls</h3>
+</a>
+</article>
+</div>
+</section>
+</main>
+<footer class="footer" id="site-footer">
+<div class="footer__inner">
+<div class="footer__cols">
+<div class="footer__col">
+<h4 data-i18n="footer.company">Company</h4>
+<ul>
+<li><a data-i18n="nav.about" href="/about/">About</a></li>
+
+
+<li><a data-i18n="nav.environment" href="/environment/">Environment</a></li>
+</ul>
+</div>
+<div class="footer__col">
+<h4 data-i18n="footer.products">Products</h4>
+<ul>
+
+
+<li><a data-i18n="footer.all_products" href="/products/">All Products</a></li>
+</ul>
+</div>
+<div class="footer__col">
+<h4 data-i18n="footer.contact">Contact</h4>
+<address>
+<!-- 联系信息占位：邮箱、电话、地址，与参考站一致的展示顺序 -->
+<div class="contact-item">Email: <a href="mailto:linda@dag-silicone.com">linda@dag-silicone.com</a></div>
+<div class="contact-item">Tel: 0086-0757-88625106</div>
+<div class="contact-item"><a data-i18n="footer.contact_form" href="/contact/">Contact Form</a></div>
+</address>
+</div>
+</div>
+<div class="footer__bottom">
+<!-- 备案/法律占位：版权、隐私、条款、备案号等位置与顺序 -->
+<small>© DAG Silicone. All rights reserved.</small>
+</div>
+</div>
+</footer>
+<script src="/scripts/main.js"></script>
+</body>
+</html>
