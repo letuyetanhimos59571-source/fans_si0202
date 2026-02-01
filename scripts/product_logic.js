@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Re-render current view
             const path = window.location.pathname;
-            if (path.includes('detail.html')) {
+            if (path.includes('/detail')) {
                 renderDetailPage();
             } else {
                 // If we are showing a category, re-render it
@@ -61,7 +61,7 @@ async function loadProducts() {
         
         // Check if we are on index or detail page
         const path = window.location.pathname;
-        if (path.includes('detail.html')) {
+        if (path.includes('/detail')) {
             renderDetailPage();
         } else {
             // Index page
@@ -184,7 +184,7 @@ function filterCategory(category, subcategory = null, event = null) {
     if (event) event.stopPropagation();
     
     // Check if we are on detail page
-    if (window.location.pathname.includes('detail.html')) {
+    if (window.location.pathname.includes('/detail')) {
         let url = `/products/?category=${encodeURIComponent(category)}`;
         if (subcategory) {
             url += `&subcategory=${encodeURIComponent(subcategory)}`;

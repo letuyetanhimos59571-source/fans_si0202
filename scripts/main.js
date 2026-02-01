@@ -59,7 +59,10 @@ document.addEventListener('DOMContentLoaded', () => {
         fallbackLng: 'zh',
         debug: false,
         backend: { loadPath: window.location.origin + '/assets/locales/messages_{{lng}}.json' }
-      }, updateContent);
+      }, () => {
+        updateContent();
+        populateDropdown();
+      });
     i18next.on('languageChanged', updateContent);
     i18next.on('missingKey', (lng, ns, key) => {
       console.warn('[i18n] missing key:', key, 'for lng:', lng);
@@ -70,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // Header Dropdown Population
   // We define a function to populate the dropdown, which can be called initially and on language change.
-  const populateDropdown = () => {
+  function populateDropdown() {
       // Only run if NOT on products page (products page handles its own sidebar/dropdown logic usually, 
       // but the header dropdown is global. Ideally, we should update it everywhere.
       // However, product_logic.js might be handling it on product pages.
@@ -104,8 +107,8 @@ document.addEventListener('DOMContentLoaded', () => {
           .catch(err => console.log('Menu load error', err));
   };
 
-  // Initial population
-  populateDropdown();
+  // Initial population handled in init callback
+  // populateDropdown();
 
   // Re-populate on language change to ensure dropdown items are translated
   if (window.i18next) {
