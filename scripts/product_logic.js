@@ -216,7 +216,7 @@ function filterCategory(category, subcategory = null, event = null) {
         const article = document.createElement('article');
         article.className = 'card';
         const imgPath = p.images && p.images.length > 0 ? p.images[0] : '';
-        const encodedImgPath = encodeURI(imgPath);
+        const encodedImgPath = imgPath ? (window.location.origin + encodeURI(imgPath)) : '';
         
         const localizedName = getLocalizedName(p);
         
