@@ -50,7 +50,7 @@ function t_sub(key) {
 // Fetch products.json
 async function loadProducts() {
     try {
-        const response = await fetch('/assets/products.json');
+        const response = await fetch(window.location.origin + '/assets/products.json');
         if (!response.ok) throw new Error("Failed to load products");
         allProducts = await response.json();
         

@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
         lng: savedLang,
         fallbackLng: 'zh',
         debug: false,
-        backend: { loadPath: '/assets/locales/messages_{{lng}}.json' }
+        backend: { loadPath: window.location.origin + '/assets/locales/messages_{{lng}}.json' }
       }, updateContent);
     i18next.on('languageChanged', updateContent);
     i18next.on('missingKey', (lng, ns, key) => {
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Let's stick to the current logic: if NOT on products page.
       if (window.location.pathname.includes('/products/')) return;
 
-      fetch('/assets/products.json')
+      fetch(window.location.origin + '/assets/products.json')
           .then(res => res.json())
           .then(data => {
               const dropdown = document.getElementById('nav-product-dropdown');
