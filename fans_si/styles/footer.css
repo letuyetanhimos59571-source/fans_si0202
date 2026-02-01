@@ -1,0 +1,53 @@
+.footer {
+  background: #e6f7ff; /* Light blue background */
+  color: #000000; /* Black text */
+}
+
+.footer__col h4 {
+  margin: 0 0 var(--space-sm);
+  color: #000000;
+}
+
+.footer__col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__col ul li {
+  margin: 6px 0;
+}
+
+.footer__col address {
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.footer__col .contact-item {
+  margin-bottom: var(--space-xs);
+  color: #000000; /* Force black */
+}
+
+.footer__col .contact-item strong {
+  color: #000000;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.footer__col .contact-item a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer__col .contact-item a:hover {
+  color: var(--color-brand);
+}
+
+.footer__bottom {
+  border-top: 1px solid rgba(0,0,0,0.1);
+  padding: var(--space-md) 0;
+  text-align: center;
+  color: #000000;
+}

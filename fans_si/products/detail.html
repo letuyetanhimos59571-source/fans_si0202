@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Details - Fans Silicone</title>
+  <link rel="stylesheet" href="/styles/variables.css">
+  <link rel="stylesheet" href="/styles/base.css">
+  <link rel="stylesheet" href="/styles/layout.css">
+  <link rel="stylesheet" href="/styles/header.css">
+  <link rel="stylesheet" href="/styles/components.css">
+  <link rel="stylesheet" href="/styles/pages/product.css">
+  <link rel="stylesheet" href="/styles/theme_update.css">
+  <link rel="stylesheet" href="/styles/footer.css">
+  <link rel="stylesheet" href="/styles/responsive.css">
+  <script src="https://unpkg.com/i18next@22.5.0/dist/umd/i18next.min.js"></script>
+  <script src="https://unpkg.com/i18next-http-backend@2.2.1/i18nextHttpBackend.min.js"></script>
+</head>
+<body>
+  <header class="header" id="site-header">
+     <!-- Same Header as index -->
+     <div class="header__inner container">
+        <a class="header__logo" href="/">
+          <img src="/assets/images/logo.png" alt="Fans Silicone" style="height: 50px;">
+        </a>
+        <nav class="header__nav" aria-label="Main Navigation">
+          <ul class="nav__list">
+            <li><a href="/" data-i18n="nav.home">Home</a></li>
+            <li class="nav__item--has-dropdown">
+            <a href="/products/" data-i18n="nav.products" class="active">Products</a>
+            <ul class="nav__dropdown" id="nav-product-dropdown">
+                <!-- Populated by JS -->
+            </ul>
+          </li>
+            <li><a href="/about/" data-i18n="nav.about">About</a></li>
+            <li><a href="/environment/" data-i18n="nav.environment">Environment</a></li>
+            <li><a href="/contact/" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header__actions">
+          <div class="font-selector" role="group" aria-labelledby="font-label">
+              <span id="font-label" class="sr-only">Language</span>
+              <button class="font-selector__btn" data-font="cn" aria-pressed="false">CN</button>
+              <button class="font-selector__btn" data-font="en" aria-pressed="true">EN</button>
+              <button class="font-selector__btn" data-font="jp" aria-pressed="false">JP</button>
+          </div>
+          <a href="/contact/" class="btn btn--primary" data-i18n="actions.inquiry">Contact Us</a>
+          <button class="header__toggle" aria-label="Menu"></button>
+        </div>
+      </div>
+  </header>
+
+  <main id="product-detail-page">
+    <div class="container product-page-container">
+      <aside class="product-sidebar">
+        <div class="sidebar-title" data-i18n="category.title">Categories</div>
+        <ul class="sidebar-menu" id="category-menu">
+           <!-- Populated by JS -->
+        </ul>
+      </aside>
+
+      <div class="product-content">
+        <div class="breadcrumbs">
+          <a href="/" data-i18n="nav.home">Home</a> <span>&gt;</span> 
+          <a href="/products/" data-i18n="nav.products">Products</a> <span>&gt;</span>
+          <span id="bc-category">Category</span> <span>&gt;</span>
+          <span id="bc-product">Product Name</span>
+        </div>
+
+        <div class="product-detail-container">
+            <div class="product-gallery">
+                <div class="main-image">
+                    <img id="detail-main-img" src="" alt="Product Image">
+                </div>
+                <div class="thumbnail-list" id="detail-thumbnails">
+                    <!-- JS Populated -->
+                </div>
+            </div>
+            <div class="product-info">
+                <h1 id="detail-title">Product Name</h1>
+                <div class="product-desc">
+                    <!-- Placeholder removed -->
+                </div>
+                <a href="/contact/" class="btn btn--primary" style="margin-top: 20px;" data-i18n="actions.inquiry">Inquiry Now</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer" id="site-footer">
+    <!-- Same Footer -->
+    <div class="footer__inner container">
+        <div class="footer__cols">
+          <div class="footer__col">
+            <h4 data-i18n="footer.company">Company</h4>
+            <ul>
+              <li><a href="/about/" data-i18n="nav.about">About Us</a></li>
+              <li><a href="/environment/" data-i18n="nav.environment">Environment</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4 data-i18n="footer.products">Products</h4>
+            <ul>
+              <li><a href="/products/" data-i18n="footer.all_products">All Products</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4 data-i18n="footer.contact">Contact</h4>
+            <address>
+              <div class="contact-item"><strong data-i18n="contact.company">DongGuan Fans Silicone Technology Co., Ltd</strong></div>
+              <div class="contact-item" data-i18n="contact.person">Contact: Frank Yuan</div>
+              <div class="contact-item"><a href="tel:+8618823803806" data-i18n="contact.phone">Mob/Wechat/Whatsapp: +86-18823803806</a></div>
+              <div class="contact-item" data-i18n="contact.address">Add: Floor 5, Building 2, No 33, XinBao 3rd street, DaLang Town, DongGuan City, GuangDong</div>
+            </address>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <small>© DongGuan Fans Silicone Technology Co., Ltd. All rights reserved.</small>
+        </div>
+      </div>
+  </footer>
+
+  <script src="/scripts/main.js"></script>
+  <script src="/scripts/product_logic.js?v=2"></script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+.hero-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero__content {
+  position: relative;
+  width: 100%;
+}
+
+.hero__image {
+  width: 100%;
+  height: auto;
+  display: block;
+  /* Optional: Add a subtle overlay to ensure text readability if we add text later */
+}
+
+.hero__overlay {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 2;
+}
+
+.section-padding {
+  padding-top: 80px; /* Increased padding */
+  padding-bottom: 80px;
+}
+
+/* Value Propositions */
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px; /* Increased gap */
+  text-align: center;
+}
+
+.value-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  border-radius: 12px;
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.value-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+}
+
+.value-icon-wrapper {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8fbff; /* Very light blue background for icons */
+  border-radius: 50%; /* Circular icon background */
+  padding: 15px;
+}
+
+.value-icon {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.value-item h3 {
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+  color: var(--color-text);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.value-item p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.7;
+}
+
+/* Posters Grid */
+.posters-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.poster-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px; /* Rounded corners for posters */
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.poster-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure images fill the card */
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.poster-item:hover img {
+  transform: scale(1.08);
+}
+
+.poster-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Darker overlay for better contrast */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  backdrop-filter: blur(2px); /* Subtle blur effect */
+}
+
+.poster-item:hover .poster-overlay {
+  opacity: 1;
+}
+
+.btn--outline {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 12px 28px;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.btn--outline:hover {
+  background: #fff;
+  color: var(--color-brand);
+}
+
+.full-width-image {
+  width: 100%;
+  display: block;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .values-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .posters-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+  .posters-grid {
+    grid-template-columns: 1fr;
+  }
+  .section-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

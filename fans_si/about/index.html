@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>关于我们</title>
+<link href="/styles/variables.css" rel="stylesheet"/>
+<link href="/styles/base.css" rel="stylesheet"/>
+<link href="/styles/layout.css" rel="stylesheet"/>
+<link href="/styles/header.css" rel="stylesheet"/>
+<link href="/styles/components.css" rel="stylesheet"/>
+<link href="/styles/footer.css" rel="stylesheet"/>
+<link href="/styles/responsive.css" rel="stylesheet"/>
+<script src="https://unpkg.com/i18next@22.5.0/dist/umd/i18next.min.js"></script>
+<script src="https://unpkg.com/i18next-http-backend@2.2.1/i18nextHttpBackend.min.js"></script>
+</head>
+<body>
+<header class="header" id="site-header">
+<div class="header__inner">
+<a class="header__logo" href="/">
+<img alt="DAG Silicone" src="/assets/images/logo.png" style="height: 50px;"/>
+</a>
+<nav aria-label="主导航" class="header__nav">
+<ul class="nav__list">
+<li><a data-i18n="nav.home" href="/">Home</a></li>
+<li class="nav__item--has-dropdown">
+<a data-i18n="nav.products" href="/products/">Products</a>
+<ul class="nav__dropdown" id="nav-product-dropdown">
+<!-- Populated by JS -->
+</ul>
+</li>
+<li><a data-i18n="nav.about" href="/about/">About</a></li>
+<li><a data-i18n="nav.environment" href="/environment/">Environment</a></li>
+<li><a data-i18n="nav.contact" href="/contact/">Contact</a></li>
+</ul>
+</nav>
+<div class="header__actions">
+<div aria-labelledby="font-label" class="font-selector" role="group">
+<span id="font-label">字体</span>
+<button aria-pressed="false" class="font-selector__btn" data-font="cn">CN</button>
+<button aria-pressed="false" class="font-selector__btn" data-font="en">EN</button>
+<button aria-pressed="false" class="font-selector__btn" data-font="jp">JP</button>
+</div>
+<a class="btn btn--primary" data-i18n="actions.inquiry" href="#inquiry">Inquiry</a>
+<div class="social">
+<a aria-label="Follow Us" class="social__icon" href="#"></a>
+</div>
+<button aria-label="打开菜单" class="header__toggle"></button>
+</div>
+</div>
+</header>
+<main id="about">
+<!-- 公司介绍与产能占位：参考站数据块位置与尺寸保持一致 -->
+<section class="container" id="company">
+<div class="grid">
+<article class="card">
+<h3 data-i18n="about.company.title">About Company</h3>
+<p data-i18n="about.company.desc">成立年份、生产面积、设备数量与产能数据占位。</p>
+</article>
+<article class="card">
+<h3 data-i18n="about.manufacturing.title">Manufacturing Capability</h3>
+<p data-i18n="about.manufacturing.desc">压缩机、注塑线、CNC、印刷、配料、包装线数据占位。</p>
+</article>
+</div>
+</section>
+
+<!-- 荣誉认证区块 -->
+<section class="container certification-section" id="certification">
+  <div class="certification-grid">
+    <div class="certification-content">
+      <h2 data-i18n="about.certification.title">Honors & Certifications</h2>
+      <p data-i18n="about.certification.desc">Certification description placeholder.</p>
+    </div>
+    <div class="certification-image">
+      <img src="/assets/images/certification.png" alt="Company Certifications" />
+    </div>
+  </div>
+</section>
+
+<!-- 价值主张锚点占位：Qualification...Environment 对应卡片位置 -->
+<section class="container" id="values">
+<div class="grid">
+<article class="card"><h3 data-i18n="values.qualification.title">Qualification</h3></article>
+<article class="card"><h3 data-i18n="values.creativity.title">Creativity</h3></article>
+<article class="card"><h3 data-i18n="values.responsibility.title">Responsibility</h3></article>
+<article class="card"><h3 data-i18n="values.variety.title">Variety</h3></article>
+<article class="card"><h3 data-i18n="values.flexibility.title">Flexibility</h3></article>
+
+
+<article class="card"><h3 data-i18n="values.environment.title">Environment</h3></article>
+</div>
+</section>
+</main>
+<footer class="footer" id="site-footer">
+<div class="footer__inner">
+<div class="footer__cols">
+<div class="footer__col">
+<h4 data-i18n="footer.company">Company</h4>
+<ul>
+<li><a data-i18n="nav.about" href="/about/">About</a></li>
+<li><a data-i18n="nav.environment" href="/environment/">Environment</a></li>
+</ul>
+</div>
+<div class="footer__col">
+<h4 data-i18n="footer.products">Products</h4>
+<ul>
+<li><a data-i18n="footer.all_products" href="/products/">All Products</a></li>
+</ul>
+</div>
+<div class="footer__col">
+<h4 data-i18n="footer.contact">Contact</h4>
+<address>
+<div class="contact-item"><strong data-i18n="contact.company">DongGuan Fans Silicone Technology Co., Ltd</strong></div>
+<div class="contact-item" data-i18n="contact.person">Contact: Frank Yuan</div>
+<div class="contact-item"><a href="tel:+8618823803806" data-i18n="contact.phone">Mob/Wechat/Whatsapp: +86-18823803806</a></div>
+<div class="contact-item" data-i18n="contact.address">Add: Floor 5, Building 2, No 33, XinBao 3rd street, DaLang Town, DongGuan City, GuangDong</div>
+</address>
+</div>
+</div>
+<div class="footer__bottom">
+<!-- 备案/法律占位：版权、隐私、条款、备案号等位置与顺序 -->
+<small>© DongGuan Fans Silicone Technology Co., Ltd. All rights reserved.</small>
+</div>
+</div>
+</footer>
+<script src="/scripts/main.js"></script>
+</body>
+</html>
