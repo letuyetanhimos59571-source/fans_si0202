@@ -11,7 +11,7 @@ if len(sys.argv) > 1:
     except ValueError:
         print(f"Invalid port number: {sys.argv[1]}, using default {PORT}")
 
-DIRECTORY = "F:\\work\\si-main\\fans_si"
+DIRECTORY = "."
 
 class Handler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):

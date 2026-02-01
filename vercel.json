@@ -1,14 +1,4 @@
 {
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "/fans_si/index.html"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/fans_si/$1"
-    }
-  ],
   "cleanUrls": true,
   "trailingSlash": true,
   "headers": [
