@@ -17,8 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (currentCategory) {
                     filterCategory(currentCategory, currentSubcategory);
                 } else {
-                    // Default view (Glass Products)
-                    showGlass();
+                    // Default view (Kitchen)
+                    filterCategory('厨房');
                 }
             }
         });
@@ -70,14 +70,15 @@ async function loadProducts() {
             const cat = urlParams.get('category');
             if (cat) {
                 if (cat === 'Glass Products') {
-                    showGlass();
+                    // Redirect legacy link to Kitchen or just ignore
+                    filterCategory('厨房');
                 } else {
                     const sub = urlParams.get('subcategory');
                     filterCategory(cat, sub);
                 }
             } else {
-                // Default view
-                showGlass();
+                // Default view: Kitchen
+                filterCategory('厨房');
             }
         }
         
@@ -159,26 +160,7 @@ function toggleSubmenu(header, catName) {
     }
 }
 
-function showGlass() {
-    currentCategory = 'Glass Products';
-    currentSubcategory = null;
-    
-    const grid = document.getElementById('product-grid');
-    const glassContent = document.getElementById('static-glass-products');
-    const heading = document.getElementById('category-heading');
-    const bcCurrent = document.getElementById('current-category');
-    
-    if (grid && glassContent) {
-        grid.innerHTML = glassContent.innerHTML;
-    }
-    
-    const title = i18next.t('category.glass_products') || 'Glass Products';
-    if (heading) heading.textContent = title;
-    if (bcCurrent) bcCurrent.textContent = title;
-    
-    // Update sidebar UI (Glass Products might not be in the dynamic list, handle carefully)
-    updateSidebarActive('Glass Products');
-}
+// function showGlass() removed as it is no longer needed
 
 function filterCategory(category, subcategory = null, event = null) {
     if (event) event.stopPropagation();
@@ -193,9 +175,9 @@ function filterCategory(category, subcategory = null, event = null) {
         return;
     }
     
-    // Redirect Glass Products to showGlass handler
+    // Redirect Glass Products to Kitchen (if called explicitly)
     if (category === 'Glass Products') {
-        showGlass();
+        filterCategory('厨房');
         return;
     }
 
@@ -247,14 +229,8 @@ function filterCategory(category, subcategory = null, event = null) {
 
 function updateSidebarActive(category, subcategory) {
     // This function is now largely redundant because renderSidebar handles active state based on currentCategory/currentSubcategory
-    // But we keep it for showGlass or external calls if needed, or just let renderSidebar do the job.
-    // Actually, showGlass calls this.
+    // But we keep it for external calls if needed, or just let renderSidebar do the job.
     
-    if (category === 'Glass Products') {
-         document.querySelectorAll('.sidebar-header').forEach(el => el.classList.remove('active'));
-         document.querySelectorAll('.sidebar-subitem a').forEach(el => el.classList.remove('active'));
-         return;
-    }
     renderSidebar();
 }
 
@@ -370,10 +346,6 @@ function updateHeaderDropdown() {
     if (!dropdown) return;
     
     dropdown.innerHTML = '';
-    
-    const glassLi = document.createElement('li');
-    glassLi.innerHTML = `<a href="/products/?category=Glass Products">${i18next.t('category.glass_products') || 'Glass Products'}</a>`;
-    dropdown.appendChild(glassLi);
     
     for (const catName of Object.keys(categories)) {
         const li = document.createElement('li');

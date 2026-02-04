@@ -1,0 +1,15 @@
+{
+  "name": "si-main",
+  "version": "1.0.0",
+  "description": "- 完全复刻参考站的导航栏结构、页面层级关系与跳转逻辑。\r - 按相同的样式规范搭建框架：字体、字号、间距、颜色方案。\r - 为图片、图标、文档资源提供占位，记录原始尺寸与位置关系。\r - 保留并实现参考站的响应式断点占位，后续替换为精确值。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^7.0.13"
+  }
+}

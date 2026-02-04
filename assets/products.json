@@ -333,7 +333,7 @@
   {
     "id": "495a56a4",
     "category": "厨房",
-    "subcategory": "硅胶餐具饮具",
+    "subcategory": "硅胶餐具炊具",
     "name": "不锈钢带刻度刮面铲切面刀面粉面团切刀面包烘培蛋糕刮板半圆切刀",
     "images": [
       "/assets/images/imported/kitchen/495a56a4/1.jpg",
@@ -375,7 +375,7 @@
   {
     "id": "17c68f23",
     "category": "厨房",
-    "subcategory": "硅胶餐具饮具",
+    "subcategory": "硅胶餐具炊具",
     "name": "五指烤箱手套厨房隔热防烫手套烘焙加厚硅胶耐高温微波炉手套防滑",
     "images": [
       "/assets/images/imported/kitchen/17c68f23/1.jpg",
@@ -417,7 +417,7 @@
   {
     "id": "f861b1d2",
     "category": "厨房",
-    "subcategory": "硅胶餐具饮具",
+    "subcategory": "硅胶餐具炊具",
     "name": "烙饼硅胶铲子玉子烧专用耐高温不伤锅煎铲炒菜锅铲油刷煎饼食品级",
     "images": [
       "/assets/images/imported/kitchen/f861b1d2/1.jpg",
@@ -460,7 +460,7 @@
   {
     "id": "550b108e",
     "category": "厨房",
-    "subcategory": "硅胶餐具饮具",
+    "subcategory": "硅胶餐具炊具",
     "name": "烤盘内衬垫硅胶烧烤盘蛋糕模具烘焙模具空气炸锅垫烤盘垫片托圆形",
     "images": [
       "/assets/images/imported/kitchen/550b108e/1.jpg",
@@ -504,7 +504,7 @@
   {
     "id": "f01c3136",
     "category": "厨房",
-    "subcategory": "硅胶餐具饮具",
+    "subcategory": "硅胶餐具炊具",
     "name": "硅胶冰格模具冰块制冰盒带盖冰块神器网红家用DIY水果茶冰块模板",
     "images": [
       "/assets/images/imported/kitchen/f01c3136/1.jpg",
@@ -547,7 +547,7 @@
   {
     "id": "a05e2315",
     "category": "厨房",
-    "subcategory": "硅胶餐具饮具",
+    "subcategory": "硅胶餐具炊具",
     "name": "硅胶刮刀烘焙工具生日蛋糕奶油刮板铲子一体式厨房家用耐高温抹刀",
     "images": [
       "/assets/images/imported/kitchen/a05e2315/1.jpg",
@@ -590,7 +590,7 @@
   {
     "id": "851f3a86",
     "category": "厨房",
-    "subcategory": "硅胶餐具饮具",
+    "subcategory": "硅胶餐具炊具",
     "name": "硅胶夹子分体夹厨房烤肉夹煎牛排夹防烫耐高温三合一辅食夹子面夹",
     "images": [
       "/assets/images/imported/kitchen/851f3a86/1.jpg",
@@ -633,7 +633,7 @@
   {
     "id": "1770ef5a",
     "category": "厨房",
-    "subcategory": "硅胶餐具饮具",
+    "subcategory": "硅胶餐具炊具",
     "name": "辅食蒸糕模具硅胶工具猫爪蛋糕磨具造型糕点食品级认证蒸糕模具",
     "images": [
       "/assets/images/imported/kitchen/1770ef5a/1.jpg",
@@ -679,7 +679,7 @@
   {
     "id": "283fa8e2",
     "category": "厨房",
-    "subcategory": "硅胶餐具饮具",
+    "subcategory": "硅胶餐具炊具",
     "name": "食品硅胶油刷家用级耐高温小烧烤刷油刷子厨房烙饼烘焙烧烤硅胶刷",
     "images": [
       "/assets/images/imported/kitchen/283fa8e2/1.jpg",
@@ -2207,6 +2207,1590 @@
         "ロゴ印刷": "可能",
         "カスタマイズ": "はい",
         "価格帯": "15-30元"
+      }
+    }
+  },
+  {
+    "id": "8ead85eb",
+    "category": "厨房",
+    "subcategory": "硅胶餐具饮具",
+    "name": "UT121 创意硅胶水果茶漏",
+    "images": [
+      "/assets/images/products/product_7.jpg"
+    ],
+    "name_en": "UT121 Modern Creative Product",
+    "name_ja": "UT121 シリコンフルーツティーインフューザー",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶",
+        "风格": "现代创意",
+        "尺寸": "10 x 5 cm",
+        "重量": "30g",
+        "耐温": "-40°C ~ 230°C",
+        "价格段": "5-10元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone",
+        "Style": "Modern Creative",
+        "Size": "10 x 5 cm",
+        "Weight": "30g",
+        "Temp Range": "-40°C ~ 230°C",
+        "Price Range": "5-10 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン",
+        "スタイル": "モダンクリエイティブ",
+        "サイズ": "10 x 5 cm",
+        "重量": "30g",
+        "耐熱温度": "-40°C ~ 230°C",
+        "価格帯": "5-10元"
+      }
+    },
+    "rich_description": {
+      "zh": [
+        "采用100%食品级硅胶制成，不含BPA，无毒无味，确保安全健康。",
+        "耐热温度范围-40°C至230°C，适用于微波炉、烤箱、冰箱和洗碗机。",
+        "材质耐用、柔韧、不易破碎，可折叠收纳，非常适合旅行和户外活动。",
+        "环保可重复使用，是替代一次性塑料制品的理想选择。",
+        "表面光滑，易于清洗，不易残留污渍。"
+      ],
+      "en": [
+        "Made of 100% food-grade silicone, BPA-free, non-toxic, and odorless for safety.",
+        "Heat resistant from -40°C to 230°C, safe for microwave, oven, freezer, and dishwasher.",
+        "Durable, flexible, and unbreakable; foldable design makes it perfect for travel and outdoors.",
+        "Eco-friendly and reusable, a great sustainable alternative to plastic.",
+        "Smooth surface is easy to clean and stain-resistant."
+      ],
+      "ja": [
+        "100％食品グレードのシリコン製で、BPAフリー、無毒、無臭で安全です。",
+        "-40°Cから230°Cまでの耐熱性があり、電子レンジ、オーブン、冷凍庫、食洗機に対応しています。",
+        "耐久性があり、柔軟で割れにくく、折りたたみ可能で旅行やアウトドアに最適です。",
+        "環境に優しく再利用可能で、プラスチックの優れた代替品です。",
+        "表面は滑らかで、洗浄が簡単で汚れが残りにくいです。"
+      ]
+    }
+  },
+  {
+    "id": "acb19b01",
+    "category": "厨房",
+    "subcategory": "硅胶餐具饮具",
+    "name": "SV021 硅胶折叠旅行杯",
+    "images": [
+      "/assets/images/products/product_8.jpg"
+    ],
+    "name_en": "SV021 Portable Folding Product",
+    "name_ja": "SV021 シリコン折りたたみトラベルカップ",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶+PP",
+        "风格": "便携折叠",
+        "容量": "200ml",
+        "重量": "50g",
+        "特点": "轻便/防漏",
+        "价格段": "5-15元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone+PP",
+        "Style": "Portable Folding",
+        "Capacity": "200ml",
+        "Weight": "50g",
+        "Features": "Lightweight/Leakproof",
+        "Price Range": "5-15 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン+PP",
+        "スタイル": "携帯折りたたみ",
+        "容量": "200ml",
+        "重量": "50g",
+        "特徴": "軽量/漏れ防止",
+        "価格帯": "5-15元"
+      }
+    },
+    "rich_description": {
+      "zh": [
+        "采用100%食品级硅胶制成，不含BPA，无毒无味，确保安全健康。",
+        "耐热温度范围-40°C至230°C，适用于微波炉、烤箱、冰箱和洗碗机。",
+        "材质耐用、柔韧、不易破碎，可折叠收纳，非常适合旅行和户外活动。",
+        "环保可重复使用，是替代一次性塑料制品的理想选择。",
+        "表面光滑，易于清洗，不易残留污渍。"
+      ],
+      "en": [
+        "Made of 100% food-grade silicone, BPA-free, non-toxic, and odorless for safety.",
+        "Heat resistant from -40°C to 230°C, safe for microwave, oven, freezer, and dishwasher.",
+        "Durable, flexible, and unbreakable; foldable design makes it perfect for travel and outdoors.",
+        "Eco-friendly and reusable, a great sustainable alternative to plastic.",
+        "Smooth surface is easy to clean and stain-resistant."
+      ],
+      "ja": [
+        "100％食品グレードのシリコン製で、BPAフリー、無毒、無臭で安全です。",
+        "-40°Cから230°Cまでの耐熱性があり、電子レンジ、オーブン、冷凍庫、食洗機に対応しています。",
+        "耐久性があり、柔軟で割れにくく、折りたたみ可能で旅行やアウトドアに最適です。",
+        "環境に優しく再利用可能で、プラスチックの優れた代替品です。",
+        "表面は滑らかで、洗浄が簡単で汚れが残りにくいです。"
+      ]
+    }
+  },
+  {
+    "id": "68436b1c",
+    "category": "厨房",
+    "subcategory": "硅胶餐具饮具",
+    "name": "UT118 硅胶保鲜收纳袋",
+    "images": [
+      "/assets/images/products/product_9.jpg"
+    ],
+    "name_en": "UT118 Eco-friendly Reusable Product",
+    "name_ja": "UT118 シリコン保存バッグ",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶",
+        "风格": "环保可循环",
+        "容量": "1000ml",
+        "尺寸": "23 x 18 cm",
+        "用途": "食物保鲜/冷冻",
+        "价格段": "10-20元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone",
+        "Style": "Eco-friendly Reusable",
+        "Capacity": "1000ml",
+        "Size": "23 x 18 cm",
+        "Usage": "Food Preservation/Freezing",
+        "Price Range": "10-20 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン",
+        "スタイル": "エコ・再利用可能",
+        "容量": "1000ml",
+        "サイズ": "23 x 18 cm",
+        "用途": "食品保存/冷凍",
+        "価格帯": "10-20元"
+      }
+    },
+    "rich_description": {
+      "zh": [
+        "采用100%食品级硅胶制成，不含BPA，无毒无味，确保安全健康。",
+        "耐热温度范围-40°C至230°C，适用于微波炉、烤箱、冰箱和洗碗机。",
+        "材质耐用、柔韧、不易破碎，可折叠收纳，非常适合旅行和户外活动。",
+        "环保可重复使用，是替代一次性塑料制品的理想选择。",
+        "表面光滑，易于清洗，不易残留污渍。"
+      ],
+      "en": [
+        "Made of 100% food-grade silicone, BPA-free, non-toxic, and odorless for safety.",
+        "Heat resistant from -40°C to 230°C, safe for microwave, oven, freezer, and dishwasher.",
+        "Durable, flexible, and unbreakable; foldable design makes it perfect for travel and outdoors.",
+        "Eco-friendly and reusable, a great sustainable alternative to plastic.",
+        "Smooth surface is easy to clean and stain-resistant."
+      ],
+      "ja": [
+        "100％食品グレードのシリコン製で、BPAフリー、無毒、無臭で安全です。",
+        "-40°Cから230°Cまでの耐熱性があり、電子レンジ、オーブン、冷凍庫、食洗機に対応しています。",
+        "耐久性があり、柔軟で割れにくく、折りたたみ可能で旅行やアウトドアに最適です。",
+        "環境に優しく再利用可能で、プラスチックの優れた代替品です。",
+        "表面は滑らかで、洗浄が簡単で汚れが残りにくいです。"
+      ]
+    }
+  },
+  {
+    "id": "fd20bdbe",
+    "category": "厨房",
+    "subcategory": "硅胶餐具饮具",
+    "name": "UT102 弯头硅胶吸管",
+    "images": [
+      "/assets/images/products/product_10.jpg"
+    ],
+    "name_en": "UT102 Simple Bend Product",
+    "name_ja": "UT102 シリコン曲がるストロー",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶",
+        "风格": "简约弯头",
+        "长度": "25cm",
+        "直径": "11mm",
+        "套装": "包含清洁刷",
+        "价格段": "2-5元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone",
+        "Style": "Simple Bend",
+        "Length": "25cm",
+        "Diameter": "11mm",
+        "Set": "Includes Cleaning Brush",
+        "Price Range": "2-5 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン",
+        "スタイル": "シンプルベンド",
+        "長さ": "25cm",
+        "直径": "11mm",
+        "セット": "洗浄ブラシ付き",
+        "価格帯": "2-5元"
+      }
+    },
+    "rich_description": {
+      "zh": [
+        "采用100%食品级硅胶制成，不含BPA，无毒无味，确保安全健康。",
+        "耐热温度范围-40°C至230°C，适用于微波炉、烤箱、冰箱和洗碗机。",
+        "材质耐用、柔韧、不易破碎，可折叠收纳，非常适合旅行和户外活动。",
+        "环保可重复使用，是替代一次性塑料制品的理想选择。",
+        "表面光滑，易于清洗，不易残留污渍。"
+      ],
+      "en": [
+        "Made of 100% food-grade silicone, BPA-free, non-toxic, and odorless for safety.",
+        "Heat resistant from -40°C to 230°C, safe for microwave, oven, freezer, and dishwasher.",
+        "Durable, flexible, and unbreakable; foldable design makes it perfect for travel and outdoors.",
+        "Eco-friendly and reusable, a great sustainable alternative to plastic.",
+        "Smooth surface is easy to clean and stain-resistant."
+      ],
+      "ja": [
+        "100％食品グレードのシリコン製で、BPAフリー、無毒、無臭で安全です。",
+        "-40°Cから230°Cまでの耐熱性があり、電子レンジ、オーブン、冷凍庫、食洗機に対応しています。",
+        "耐久性があり、柔軟で割れにくく、折りたたみ可能で旅行やアウトドアに最適です。",
+        "環境に優しく再利用可能で、プラスチックの優れた代替品です。",
+        "表面は滑らかで、洗浄が簡単で汚れが残りにくいです。"
+      ]
+    }
+  },
+  {
+    "id": "c6d51227",
+    "category": "厨房",
+    "subcategory": "硅胶餐具饮具",
+    "name": "UT104 竹节形状硅胶吸管",
+    "images": [
+      "/assets/images/products/product_11.jpg"
+    ],
+    "name_en": "UT104 Bionic Bamboo Product",
+    "name_ja": "UT104 竹の形シリコンストロー",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶",
+        "风格": "仿生竹节",
+        "长度": "24cm",
+        "特点": "易抓握/防滑",
+        "价格段": "2-5元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone",
+        "Style": "Bionic Bamboo",
+        "Length": "24cm",
+        "Features": "Easy Grip/Anti-slip",
+        "Price Range": "2-5 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン",
+        "スタイル": "竹の形",
+        "長さ": "24cm",
+        "特徴": "握りやすい/滑り止め",
+        "価格帯": "2-5元"
+      }
+    },
+    "rich_description": {
+      "zh": [
+        "采用100%食品级硅胶制成，不含BPA，无毒无味，确保安全健康。",
+        "耐热温度范围-40°C至230°C，适用于微波炉、烤箱、冰箱和洗碗机。",
+        "材质耐用、柔韧、不易破碎，可折叠收纳，非常适合旅行和户外活动。",
+        "环保可重复使用，是替代一次性塑料制品的理想选择。",
+        "表面光滑，易于清洗，不易残留污渍。"
+      ],
+      "en": [
+        "Made of 100% food-grade silicone, BPA-free, non-toxic, and odorless for safety.",
+        "Heat resistant from -40°C to 230°C, safe for microwave, oven, freezer, and dishwasher.",
+        "Durable, flexible, and unbreakable; foldable design makes it perfect for travel and outdoors.",
+        "Eco-friendly and reusable, a great sustainable alternative to plastic.",
+        "Smooth surface is easy to clean and stain-resistant."
+      ],
+      "ja": [
+        "100％食品グレードのシリコン製で、BPAフリー、無毒、無臭で安全です。",
+        "-40°Cから230°Cまでの耐熱性があり、電子レンジ、オーブン、冷凍庫、食洗機に対応しています。",
+        "耐久性があり、柔軟で割れにくく、折りたたみ可能で旅行やアウトドアに最適です。",
+        "環境に優しく再利用可能で、プラスチックの優れた代替品です。",
+        "表面は滑らかで、洗浄が簡単で汚れが残りにくいです。"
+      ]
+    }
+  },
+  {
+    "id": "539d5fa0",
+    "category": "厨房",
+    "subcategory": "硅胶餐具饮具",
+    "name": "UT105 扭扭硅胶吸管",
+    "images": [
+      "/assets/images/products/product_12.jpg"
+    ],
+    "name_en": "UT105 Fun Twist Product",
+    "name_ja": "UT105 ツイストシリコンストロー",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶",
+        "风格": "趣味扭扭",
+        "长度": "26cm",
+        "颜色": "多色拼接",
+        "价格段": "2-5元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone",
+        "Style": "Fun Twist",
+        "Length": "26cm",
+        "Color": "Multicolor Splicing",
+        "Price Range": "2-5 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン",
+        "スタイル": "楽しいツイスト",
+        "長さ": "26cm",
+        "色": "マルチカラー",
+        "価格帯": "2-5元"
+      }
+    },
+    "rich_description": {
+      "zh": [
+        "采用100%食品级硅胶制成，不含BPA，无毒无味，确保安全健康。",
+        "耐热温度范围-40°C至230°C，适用于微波炉、烤箱、冰箱和洗碗机。",
+        "材质耐用、柔韧、不易破碎，可折叠收纳，非常适合旅行和户外活动。",
+        "环保可重复使用，是替代一次性塑料制品的理想选择。",
+        "表面光滑，易于清洗，不易残留污渍。"
+      ],
+      "en": [
+        "Made of 100% food-grade silicone, BPA-free, non-toxic, and odorless for safety.",
+        "Heat resistant from -40°C to 230°C, safe for microwave, oven, freezer, and dishwasher.",
+        "Durable, flexible, and unbreakable; foldable design makes it perfect for travel and outdoors.",
+        "Eco-friendly and reusable, a great sustainable alternative to plastic.",
+        "Smooth surface is easy to clean and stain-resistant."
+      ],
+      "ja": [
+        "100％食品グレードのシリコン製で、BPAフリー、無毒、無臭で安全です。",
+        "-40°Cから230°Cまでの耐熱性があり、電子レンジ、オーブン、冷凍庫、食洗機に対応しています。",
+        "耐久性があり、柔軟で割れにくく、折りたたみ可能で旅行やアウトドアに最適です。",
+        "環境に優しく再利用可能で、プラスチックの優れた代替品です。",
+        "表面は滑らかで、洗浄が簡単で汚れが残りにくいです。"
+      ]
+    }
+  },
+  {
+    "id": "28b75e6e",
+    "category": "厨房",
+    "subcategory": "硅胶餐具饮具",
+    "name": "UT105 扭扭硅胶吸管",
+    "images": [
+      "/assets/images/products/product_13.jpg"
+    ],
+    "name_en": "UT105 Fun Twist Product",
+    "name_ja": "UT105 ツイストシリコンストロー",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶",
+        "风格": "趣味扭扭",
+        "长度": "26cm",
+        "颜色": "多色拼接",
+        "价格段": "2-5元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone",
+        "Style": "Fun Twist",
+        "Length": "26cm",
+        "Color": "Multicolor Splicing",
+        "Price Range": "2-5 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン",
+        "スタイル": "楽しいツイスト",
+        "長さ": "26cm",
+        "色": "マルチカラー",
+        "価格帯": "2-5元"
+      }
+    },
+    "rich_description": {
+      "zh": [
+        "采用100%食品级硅胶制成，不含BPA，无毒无味，确保安全健康。",
+        "耐热温度范围-40°C至230°C，适用于微波炉、烤箱、冰箱和洗碗机。",
+        "材质耐用、柔韧、不易破碎，可折叠收纳，非常适合旅行和户外活动。",
+        "环保可重复使用，是替代一次性塑料制品的理想选择。",
+        "表面光滑，易于清洗，不易残留污渍。"
+      ],
+      "en": [
+        "Made of 100% food-grade silicone, BPA-free, non-toxic, and odorless for safety.",
+        "Heat resistant from -40°C to 230°C, safe for microwave, oven, freezer, and dishwasher.",
+        "Durable, flexible, and unbreakable; foldable design makes it perfect for travel and outdoors.",
+        "Eco-friendly and reusable, a great sustainable alternative to plastic.",
+        "Smooth surface is easy to clean and stain-resistant."
+      ],
+      "ja": [
+        "100％食品グレードのシリコン製で、BPAフリー、無毒、無臭で安全です。",
+        "-40°Cから230°Cまでの耐熱性があり、電子レンジ、オーブン、冷凍庫、食洗機に対応しています。",
+        "耐久性があり、柔軟で割れにくく、折りたたみ可能で旅行やアウトドアに最適です。",
+        "環境に優しく再利用可能で、プラスチックの優れた代替品です。",
+        "表面は滑らかで、洗浄が簡単で汚れが残りにくいです。"
+      ]
+    }
+  },
+  {
+    "id": "903a19f0",
+    "category": "厨房",
+    "subcategory": "硅胶餐具饮具",
+    "name": "UT106 直筒竹节硅胶吸管",
+    "images": [
+      "/assets/images/products/product_14.jpg"
+    ],
+    "name_en": "UT106 Straight Bamboo Product",
+    "name_ja": "UT106 ストレート竹型シリコンストロー",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶",
+        "风格": "直筒竹节",
+        "长度": "23cm",
+        "直径": "12mm",
+        "价格段": "2-5元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone",
+        "Style": "Straight Bamboo",
+        "Length": "23cm",
+        "Diameter": "12mm",
+        "Price Range": "2-5 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン",
+        "スタイル": "ストレート竹型",
+        "長さ": "23cm",
+        "直径": "12mm",
+        "価格帯": "2-5元"
+      }
+    },
+    "rich_description": {
+      "zh": [
+        "采用100%食品级硅胶制成，不含BPA，无毒无味，确保安全健康。",
+        "耐热温度范围-40°C至230°C，适用于微波炉、烤箱、冰箱和洗碗机。",
+        "材质耐用、柔韧、不易破碎，可折叠收纳，非常适合旅行和户外活动。",
+        "环保可重复使用，是替代一次性塑料制品的理想选择。",
+        "表面光滑，易于清洗，不易残留污渍。"
+      ],
+      "en": [
+        "Made of 100% food-grade silicone, BPA-free, non-toxic, and odorless for safety.",
+        "Heat resistant from -40°C to 230°C, safe for microwave, oven, freezer, and dishwasher.",
+        "Durable, flexible, and unbreakable; foldable design makes it perfect for travel and outdoors.",
+        "Eco-friendly and reusable, a great sustainable alternative to plastic.",
+        "Smooth surface is easy to clean and stain-resistant."
+      ],
+      "ja": [
+        "100％食品グレードのシリコン製で、BPAフリー、無毒、無臭で安全です。",
+        "-40°Cから230°Cまでの耐熱性があり、電子レンジ、オーブン、冷凍庫、食洗機に対応しています。",
+        "耐久性があり、柔軟で割れにくく、折りたたみ可能で旅行やアウトドアに最適です。",
+        "環境に優しく再利用可能で、プラスチックの優れた代替品です。",
+        "表面は滑らかで、洗浄が簡単で汚れが残りにくいです。"
+      ]
+    }
+  },
+  {
+    "id": "01fa4268",
+    "category": "厨房",
+    "subcategory": "硅胶餐具饮具",
+    "name": "UT123 花朵吸管防尘塞/支架",
+    "images": [
+      "/assets/images/products/product_15.jpg"
+    ],
+    "name_en": "UT123 Cute Flower Product",
+    "name_ja": "UT123 花型ストローカバー/ホルダー",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶",
+        "风格": "可爱花朵",
+        "功能": "防尘/固定",
+        "适用": "6-8mm吸管",
+        "价格段": "1-3元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone",
+        "Style": "Cute Flower",
+        "Function": "Dustproof/Fixing",
+        "Fits": "6-8mm Straws",
+        "Price Range": "1-3 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン",
+        "スタイル": "可愛い花",
+        "機能": "防塵/固定",
+        "適用": "6-8mmストロー",
+        "価格帯": "1-3元"
+      }
+    },
+    "rich_description": {
+      "zh": [
+        "采用100%食品级硅胶制成，不含BPA，无毒无味，确保安全健康。",
+        "耐热温度范围-40°C至230°C，适用于微波炉、烤箱、冰箱和洗碗机。",
+        "材质耐用、柔韧、不易破碎，可折叠收纳，非常适合旅行和户外活动。",
+        "环保可重复使用，是替代一次性塑料制品的理想选择。",
+        "表面光滑，易于清洗，不易残留污渍。"
+      ],
+      "en": [
+        "Made of 100% food-grade silicone, BPA-free, non-toxic, and odorless for safety.",
+        "Heat resistant from -40°C to 230°C, safe for microwave, oven, freezer, and dishwasher.",
+        "Durable, flexible, and unbreakable; foldable design makes it perfect for travel and outdoors.",
+        "Eco-friendly and reusable, a great sustainable alternative to plastic.",
+        "Smooth surface is easy to clean and stain-resistant."
+      ],
+      "ja": [
+        "100％食品グレードのシリコン製で、BPAフリー、無毒、無臭で安全です。",
+        "-40°Cから230°Cまでの耐熱性があり、電子レンジ、オーブン、冷凍庫、食洗機に対応しています。",
+        "耐久性があり、柔軟で割れにくく、折りたたみ可能で旅行やアウトドアに最適です。",
+        "環境に優しく再利用可能で、プラスチックの優れた代替品です。",
+        "表面は滑らかで、洗浄が簡単で汚れが残りにくいです。"
+      ]
+    }
+  },
+  {
+    "id": "4774277b",
+    "category": "厨房",
+    "subcategory": "硅胶餐具饮具",
+    "name": "UT107 绅士帽吸管装饰",
+    "images": [
+      "/assets/images/products/product_16.jpg"
+    ],
+    "name_en": "UT107 Hat Product",
+    "name_ja": "UT107 紳士帽ストローマーカー",
+    "specs": {
+      "zh": {
+        "材质": "硅胶",
+        "造型": "帽子",
+        "用途": "吸管标记/装饰",
+        "价格段": "1-2元"
+      },
+      "en": {
+        "Material": "Silicone",
+        "Shape": "Hat",
+        "Usage": "Straw Marker/Decoration",
+        "Price Range": "1-2 CNY"
+      },
+      "ja": {
+        "材質": "シリコン",
+        "形状": "帽子",
+        "用途": "ストローマーカー/装飾",
+        "価格帯": "1-2元"
+      }
+    },
+    "rich_description": {
+      "zh": [
+        "采用100%食品级硅胶制成，不含BPA，无毒无味，确保安全健康。",
+        "耐热温度范围-40°C至230°C，适用于微波炉、烤箱、冰箱和洗碗机。",
+        "材质耐用、柔韧、不易破碎，可折叠收纳，非常适合旅行和户外活动。",
+        "环保可重复使用，是替代一次性塑料制品的理想选择。",
+        "表面光滑，易于清洗，不易残留污渍。"
+      ],
+      "en": [
+        "Made of 100% food-grade silicone, BPA-free, non-toxic, and odorless for safety.",
+        "Heat resistant from -40°C to 230°C, safe for microwave, oven, freezer, and dishwasher.",
+        "Durable, flexible, and unbreakable; foldable design makes it perfect for travel and outdoors.",
+        "Eco-friendly and reusable, a great sustainable alternative to plastic.",
+        "Smooth surface is easy to clean and stain-resistant."
+      ],
+      "ja": [
+        "100％食品グレードのシリコン製で、BPAフリー、無毒、無臭で安全です。",
+        "-40°Cから230°Cまでの耐熱性があり、電子レンジ、オーブン、冷凍庫、食洗機に対応しています。",
+        "耐久性があり、柔軟で割れにくく、折りたたみ可能で旅行やアウトドアに最適です。",
+        "環境に優しく再利用可能で、プラスチックの優れた代替品です。",
+        "表面は滑らかで、洗浄が簡単で汚れが残りにくいです。"
+      ]
+    }
+  },
+  {
+    "id": "bdd3f535",
+    "category": "厨房",
+    "subcategory": "硅胶餐具饮具",
+    "name": "UT108 眼镜吸管装饰",
+    "images": [
+      "/assets/images/products/product_17.jpg"
+    ],
+    "name_en": "UT108 Glasses Product",
+    "name_ja": "UT108 メガネストローマーカー",
+    "specs": {
+      "zh": {
+        "材质": "硅胶",
+        "造型": "眼镜",
+        "用途": "派对装饰",
+        "价格段": "1-2元"
+      },
+      "en": {
+        "Material": "Silicone",
+        "Shape": "Glasses",
+        "Usage": "Party Decoration",
+        "Price Range": "1-2 CNY"
+      },
+      "ja": {
+        "材質": "シリコン",
+        "形状": "メガネ",
+        "用途": "パーティー装飾",
+        "価格帯": "1-2元"
+      }
+    },
+    "rich_description": {
+      "zh": [
+        "采用100%食品级硅胶制成，不含BPA，无毒无味，确保安全健康。",
+        "耐热温度范围-40°C至230°C，适用于微波炉、烤箱、冰箱和洗碗机。",
+        "材质耐用、柔韧、不易破碎，可折叠收纳，非常适合旅行和户外活动。",
+        "环保可重复使用，是替代一次性塑料制品的理想选择。",
+        "表面光滑，易于清洗，不易残留污渍。"
+      ],
+      "en": [
+        "Made of 100% food-grade silicone, BPA-free, non-toxic, and odorless for safety.",
+        "Heat resistant from -40°C to 230°C, safe for microwave, oven, freezer, and dishwasher.",
+        "Durable, flexible, and unbreakable; foldable design makes it perfect for travel and outdoors.",
+        "Eco-friendly and reusable, a great sustainable alternative to plastic.",
+        "Smooth surface is easy to clean and stain-resistant."
+      ],
+      "ja": [
+        "100％食品グレードのシリコン製で、BPAフリー、無毒、無臭で安全です。",
+        "-40°Cから230°Cまでの耐熱性があり、電子レンジ、オーブン、冷凍庫、食洗機に対応しています。",
+        "耐久性があり、柔軟で割れにくく、折りたたみ可能で旅行やアウトドアに最適です。",
+        "環境に優しく再利用可能で、プラスチックの優れた代替品です。",
+        "表面は滑らかで、洗浄が簡単で汚れが残りにくいです。"
+      ]
+    }
+  },
+  {
+    "id": "e5febed2",
+    "category": "厨房",
+    "subcategory": "硅胶餐具饮具",
+    "name": "UT109 胡子吸管装饰",
+    "images": [
+      "/assets/images/products/product_18.jpg"
+    ],
+    "name_en": "UT109 Mustache Product",
+    "name_ja": "UT109 髭ストローマーカー",
+    "specs": {
+      "zh": {
+        "材质": "硅胶",
+        "造型": "胡子",
+        "用途": "趣味标记",
+        "价格段": "1-2元"
+      },
+      "en": {
+        "Material": "Silicone",
+        "Shape": "Mustache",
+        "Usage": "Fun Marker",
+        "Price Range": "1-2 CNY"
+      },
+      "ja": {
+        "材質": "シリコン",
+        "形状": "髭",
+        "用途": "楽しいマーカー",
+        "価格帯": "1-2元"
+      }
+    },
+    "rich_description": {
+      "zh": [
+        "采用100%食品级硅胶制成，不含BPA，无毒无味，确保安全健康。",
+        "耐热温度范围-40°C至230°C，适用于微波炉、烤箱、冰箱和洗碗机。",
+        "材质耐用、柔韧、不易破碎，可折叠收纳，非常适合旅行和户外活动。",
+        "环保可重复使用，是替代一次性塑料制品的理想选择。",
+        "表面光滑，易于清洗，不易残留污渍。"
+      ],
+      "en": [
+        "Made of 100% food-grade silicone, BPA-free, non-toxic, and odorless for safety.",
+        "Heat resistant from -40°C to 230°C, safe for microwave, oven, freezer, and dishwasher.",
+        "Durable, flexible, and unbreakable; foldable design makes it perfect for travel and outdoors.",
+        "Eco-friendly and reusable, a great sustainable alternative to plastic.",
+        "Smooth surface is easy to clean and stain-resistant."
+      ],
+      "ja": [
+        "100％食品グレードのシリコン製で、BPAフリー、無毒、無臭で安全です。",
+        "-40°Cから230°Cまでの耐熱性があり、電子レンジ、オーブン、冷凍庫、食洗機に対応しています。",
+        "耐久性があり、柔軟で割れにくく、折りたたみ可能で旅行やアウトドアに最適です。",
+        "環境に優しく再利用可能で、プラスチックの優れた代替品です。",
+        "表面は滑らかで、洗浄が簡単で汚れが残りにくいです。"
+      ]
+    }
+  },
+  {
+    "id": "65c5dbf2",
+    "category": "厨房",
+    "subcategory": "硅胶餐具饮具",
+    "name": "UT110 领结吸管装饰",
+    "images": [
+      "/assets/images/products/product_19.jpg"
+    ],
+    "name_en": "UT110 Bow Tie Product",
+    "name_ja": "UT110 蝶ネクタイストローマーカー",
+    "specs": {
+      "zh": {
+        "材质": "硅胶",
+        "造型": "领结",
+        "用途": "装饰",
+        "价格段": "1-2元"
+      },
+      "en": {
+        "Material": "Silicone",
+        "Shape": "Bow Tie",
+        "Usage": "Decoration",
+        "Price Range": "1-2 CNY"
+      },
+      "ja": {
+        "材質": "シリコン",
+        "形状": "蝶ネクタイ",
+        "用途": "装飾",
+        "価格帯": "1-2元"
+      }
+    },
+    "rich_description": {
+      "zh": [
+        "采用100%食品级硅胶制成，不含BPA，无毒无味，确保安全健康。",
+        "耐热温度范围-40°C至230°C，适用于微波炉、烤箱、冰箱和洗碗机。",
+        "材质耐用、柔韧、不易破碎，可折叠收纳，非常适合旅行和户外活动。",
+        "环保可重复使用，是替代一次性塑料制品的理想选择。",
+        "表面光滑，易于清洗，不易残留污渍。"
+      ],
+      "en": [
+        "Made of 100% food-grade silicone, BPA-free, non-toxic, and odorless for safety.",
+        "Heat resistant from -40°C to 230°C, safe for microwave, oven, freezer, and dishwasher.",
+        "Durable, flexible, and unbreakable; foldable design makes it perfect for travel and outdoors.",
+        "Eco-friendly and reusable, a great sustainable alternative to plastic.",
+        "Smooth surface is easy to clean and stain-resistant."
+      ],
+      "ja": [
+        "100％食品グレードのシリコン製で、BPAフリー、無毒、無臭で安全です。",
+        "-40°Cから230°Cまでの耐熱性があり、電子レンジ、オーブン、冷凍庫、食洗機に対応しています。",
+        "耐久性があり、柔軟で割れにくく、折りたたみ可能で旅行やアウトドアに最適です。",
+        "環境に優しく再利用可能で、プラスチックの優れた代替品です。",
+        "表面は滑らかで、洗浄が簡単で汚れが残りにくいです。"
+      ]
+    }
+  },
+  {
+    "id": "335ef3a4",
+    "category": "厨房",
+    "subcategory": "硅胶餐具饮具",
+    "name": "UT111 皇冠吸管装饰",
+    "images": [
+      "/assets/images/products/product_20.jpg"
+    ],
+    "name_en": "UT111 Crown Product",
+    "name_ja": "UT111 王冠ストローマーカー",
+    "specs": {
+      "zh": {
+        "材质": "硅胶",
+        "造型": "皇冠",
+        "用途": "装饰",
+        "价格段": "1-2元"
+      },
+      "en": {
+        "Material": "Silicone",
+        "Shape": "Crown",
+        "Usage": "Decoration",
+        "Price Range": "1-2 CNY"
+      },
+      "ja": {
+        "材質": "シリコン",
+        "形状": "王冠",
+        "用途": "装飾",
+        "価格帯": "1-2元"
+      }
+    },
+    "rich_description": {
+      "zh": [
+        "采用100%食品级硅胶制成，不含BPA，无毒无味，确保安全健康。",
+        "耐热温度范围-40°C至230°C，适用于微波炉、烤箱、冰箱和洗碗机。",
+        "材质耐用、柔韧、不易破碎，可折叠收纳，非常适合旅行和户外活动。",
+        "环保可重复使用，是替代一次性塑料制品的理想选择。",
+        "表面光滑，易于清洗，不易残留污渍。"
+      ],
+      "en": [
+        "Made of 100% food-grade silicone, BPA-free, non-toxic, and odorless for safety.",
+        "Heat resistant from -40°C to 230°C, safe for microwave, oven, freezer, and dishwasher.",
+        "Durable, flexible, and unbreakable; foldable design makes it perfect for travel and outdoors.",
+        "Eco-friendly and reusable, a great sustainable alternative to plastic.",
+        "Smooth surface is easy to clean and stain-resistant."
+      ],
+      "ja": [
+        "100％食品グレードのシリコン製で、BPAフリー、無毒、無臭で安全です。",
+        "-40°Cから230°Cまでの耐熱性があり、電子レンジ、オーブン、冷凍庫、食洗機に対応しています。",
+        "耐久性があり、柔軟で割れにくく、折りたたみ可能で旅行やアウトドアに最適です。",
+        "環境に優しく再利用可能で、プラスチックの優れた代替品です。",
+        "表面は滑らかで、洗浄が簡単で汚れが残りにくいです。"
+      ]
+    }
+  },
+  {
+    "id": "c048a060",
+    "category": "厨房",
+    "subcategory": "硅胶餐具饮具",
+    "name": "UT112 面具吸管装饰",
+    "images": [
+      "/assets/images/products/product_21.jpg"
+    ],
+    "name_en": "UT112 Mask Product",
+    "name_ja": "UT112 マスクストローマーカー",
+    "specs": {
+      "zh": {
+        "材质": "硅胶",
+        "造型": "面具",
+        "用途": "装饰",
+        "价格段": "1-2元"
+      },
+      "en": {
+        "Material": "Silicone",
+        "Shape": "Mask",
+        "Usage": "Decoration",
+        "Price Range": "1-2 CNY"
+      },
+      "ja": {
+        "材質": "シリコン",
+        "形状": "マスク",
+        "用途": "装飾",
+        "価格帯": "1-2元"
+      }
+    },
+    "rich_description": {
+      "zh": [
+        "采用100%食品级硅胶制成，不含BPA，无毒无味，确保安全健康。",
+        "耐热温度范围-40°C至230°C，适用于微波炉、烤箱、冰箱和洗碗机。",
+        "材质耐用、柔韧、不易破碎，可折叠收纳，非常适合旅行和户外活动。",
+        "环保可重复使用，是替代一次性塑料制品的理想选择。",
+        "表面光滑，易于清洗，不易残留污渍。"
+      ],
+      "en": [
+        "Made of 100% food-grade silicone, BPA-free, non-toxic, and odorless for safety.",
+        "Heat resistant from -40°C to 230°C, safe for microwave, oven, freezer, and dishwasher.",
+        "Durable, flexible, and unbreakable; foldable design makes it perfect for travel and outdoors.",
+        "Eco-friendly and reusable, a great sustainable alternative to plastic.",
+        "Smooth surface is easy to clean and stain-resistant."
+      ],
+      "ja": [
+        "100％食品グレードのシリコン製で、BPAフリー、無毒、無臭で安全です。",
+        "-40°Cから230°Cまでの耐熱性があり、電子レンジ、オーブン、冷凍庫、食洗機に対応しています。",
+        "耐久性があり、柔軟で割れにくく、折りたたみ可能で旅行やアウトドアに最適です。",
+        "環境に優しく再利用可能で、プラスチックの優れた代替品です。",
+        "表面は滑らかで、洗浄が簡単で汚れが残りにくいです。"
+      ]
+    }
+  },
+  {
+    "id": "67b79648",
+    "category": "厨房",
+    "subcategory": "硅胶餐具饮具",
+    "name": "UT113 嘴唇吸管装饰",
+    "images": [
+      "/assets/images/products/product_22.jpg"
+    ],
+    "name_en": "UT113 Lips Product",
+    "name_ja": "UT113 唇ストローマーカー",
+    "specs": {
+      "zh": {
+        "材质": "硅胶",
+        "造型": "嘴唇",
+        "用途": "装饰",
+        "价格段": "1-2元"
+      },
+      "en": {
+        "Material": "Silicone",
+        "Shape": "Lips",
+        "Usage": "Decoration",
+        "Price Range": "1-2 CNY"
+      },
+      "ja": {
+        "材質": "シリコン",
+        "形状": "唇",
+        "用途": "装飾",
+        "価格帯": "1-2元"
+      }
+    },
+    "rich_description": {
+      "zh": [
+        "采用100%食品级硅胶制成，不含BPA，无毒无味，确保安全健康。",
+        "耐热温度范围-40°C至230°C，适用于微波炉、烤箱、冰箱和洗碗机。",
+        "材质耐用、柔韧、不易破碎，可折叠收纳，非常适合旅行和户外活动。",
+        "环保可重复使用，是替代一次性塑料制品的理想选择。",
+        "表面光滑，易于清洗，不易残留污渍。"
+      ],
+      "en": [
+        "Made of 100% food-grade silicone, BPA-free, non-toxic, and odorless for safety.",
+        "Heat resistant from -40°C to 230°C, safe for microwave, oven, freezer, and dishwasher.",
+        "Durable, flexible, and unbreakable; foldable design makes it perfect for travel and outdoors.",
+        "Eco-friendly and reusable, a great sustainable alternative to plastic.",
+        "Smooth surface is easy to clean and stain-resistant."
+      ],
+      "ja": [
+        "100％食品グレードのシリコン製で、BPAフリー、無毒、無臭で安全です。",
+        "-40°Cから230°Cまでの耐熱性があり、電子レンジ、オーブン、冷凍庫、食洗機に対応しています。",
+        "耐久性があり、柔軟で割れにくく、折りたたみ可能で旅行やアウトドアに最適です。",
+        "環境に優しく再利用可能で、プラスチックの優れた代替品です。",
+        "表面は滑らかで、洗浄が簡単で汚れが残りにくいです。"
+      ]
+    }
+  },
+  {
+    "id": "392c947a",
+    "category": "厨房",
+    "subcategory": "硅胶餐具饮具",
+    "name": "UT114 蝴蝶结吸管装饰",
+    "images": [
+      "/assets/images/products/product_23.jpg"
+    ],
+    "name_en": "UT114 Bowknot Product",
+    "name_ja": "UT114 リボンストローマーカー",
+    "specs": {
+      "zh": {
+        "材质": "硅胶",
+        "造型": "蝴蝶结",
+        "用途": "装饰",
+        "价格段": "1-2元"
+      },
+      "en": {
+        "Material": "Silicone",
+        "Shape": "Bowknot",
+        "Usage": "Decoration",
+        "Price Range": "1-2 CNY"
+      },
+      "ja": {
+        "材質": "シリコン",
+        "形状": "リボン",
+        "用途": "装飾",
+        "価格帯": "1-2元"
+      }
+    },
+    "rich_description": {
+      "zh": [
+        "采用100%食品级硅胶制成，不含BPA，无毒无味，确保安全健康。",
+        "耐热温度范围-40°C至230°C，适用于微波炉、烤箱、冰箱和洗碗机。",
+        "材质耐用、柔韧、不易破碎，可折叠收纳，非常适合旅行和户外活动。",
+        "环保可重复使用，是替代一次性塑料制品的理想选择。",
+        "表面光滑，易于清洗，不易残留污渍。"
+      ],
+      "en": [
+        "Made of 100% food-grade silicone, BPA-free, non-toxic, and odorless for safety.",
+        "Heat resistant from -40°C to 230°C, safe for microwave, oven, freezer, and dishwasher.",
+        "Durable, flexible, and unbreakable; foldable design makes it perfect for travel and outdoors.",
+        "Eco-friendly and reusable, a great sustainable alternative to plastic.",
+        "Smooth surface is easy to clean and stain-resistant."
+      ],
+      "ja": [
+        "100％食品グレードのシリコン製で、BPAフリー、無毒、無臭で安全です。",
+        "-40°Cから230°Cまでの耐熱性があり、電子レンジ、オーブン、冷凍庫、食洗機に対応しています。",
+        "耐久性があり、柔軟で割れにくく、折りたたみ可能で旅行やアウトドアに最適です。",
+        "環境に優しく再利用可能で、プラスチックの優れた代替品です。",
+        "表面は滑らかで、洗浄が簡単で汚れが残りにくいです。"
+      ]
+    }
+  },
+  {
+    "id": "49adc39c",
+    "category": "厨房",
+    "subcategory": "硅胶餐具饮具",
+    "name": "SV029 创意草莓硅胶水壶",
+    "images": [
+      "/assets/images/products/product_24.jpg"
+    ],
+    "name_en": "SV029 Strawberry Product",
+    "name_ja": "SV029 イチゴ型シリコンウォーターボトル",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶",
+        "造型": "草莓",
+        "容量": "300ml",
+        "特点": "防摔/便携",
+        "价格段": "10-20元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone",
+        "Shape": "Strawberry",
+        "Capacity": "300ml",
+        "Features": "Drop-proof/Portable",
+        "Price Range": "10-20 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン",
+        "形状": "イチゴ",
+        "容量": "300ml",
+        "特徴": "落下防止/携帯",
+        "価格帯": "10-20元"
+      }
+    },
+    "rich_description": {
+      "zh": [
+        "采用100%食品级硅胶制成，不含BPA，无毒无味，确保安全健康。",
+        "耐热温度范围-40°C至230°C，适用于微波炉、烤箱、冰箱和洗碗机。",
+        "材质耐用、柔韧、不易破碎，可折叠收纳，非常适合旅行和户外活动。",
+        "环保可重复使用，是替代一次性塑料制品的理想选择。",
+        "表面光滑，易于清洗，不易残留污渍。"
+      ],
+      "en": [
+        "Made of 100% food-grade silicone, BPA-free, non-toxic, and odorless for safety.",
+        "Heat resistant from -40°C to 230°C, safe for microwave, oven, freezer, and dishwasher.",
+        "Durable, flexible, and unbreakable; foldable design makes it perfect for travel and outdoors.",
+        "Eco-friendly and reusable, a great sustainable alternative to plastic.",
+        "Smooth surface is easy to clean and stain-resistant."
+      ],
+      "ja": [
+        "100％食品グレードのシリコン製で、BPAフリー、無毒、無臭で安全です。",
+        "-40°Cから230°Cまでの耐熱性があり、電子レンジ、オーブン、冷凍庫、食洗機に対応しています。",
+        "耐久性があり、柔軟で割れにくく、折りたたみ可能で旅行やアウトドアに最適です。",
+        "環境に優しく再利用可能で、プラスチックの優れた代替品です。",
+        "表面は滑らかで、洗浄が簡単で汚れが残りにくいです。"
+      ]
+    }
+  },
+  {
+    "id": "01208a07",
+    "category": "厨房",
+    "subcategory": "硅胶餐具饮具",
+    "name": "UT062 高透硅胶红酒杯",
+    "images": [
+      "/assets/images/products/product_25.jpg"
+    ],
+    "name_en": "UT062 Modern Simple Product",
+    "name_ja": "UT062 高透明シリコンワインカップ",
+    "specs": {
+      "zh": {
+        "材质": "高透硅胶",
+        "风格": "现代简约",
+        "容量": "350ml",
+        "特点": "不易碎/高透明",
+        "价格段": "10-20元"
+      },
+      "en": {
+        "Material": "High Transparency Silicone",
+        "Style": "Modern Simple",
+        "Capacity": "350ml",
+        "Features": "Unbreakable/Clear",
+        "Price Range": "10-20 CNY"
+      },
+      "ja": {
+        "材質": "高透明シリコン",
+        "スタイル": "モダンシンプル",
+        "容量": "350ml",
+        "特徴": "割れにくい/高透明",
+        "価格帯": "10-20元"
+      }
+    },
+    "rich_description": {
+      "zh": [
+        "采用100%食品级硅胶制成，不含BPA，无毒无味，确保安全健康。",
+        "耐热温度范围-40°C至230°C，适用于微波炉、烤箱、冰箱和洗碗机。",
+        "材质耐用、柔韧、不易破碎，可折叠收纳，非常适合旅行和户外活动。",
+        "环保可重复使用，是替代一次性塑料制品的理想选择。",
+        "表面光滑，易于清洗，不易残留污渍。"
+      ],
+      "en": [
+        "Made of 100% food-grade silicone, BPA-free, non-toxic, and odorless for safety.",
+        "Heat resistant from -40°C to 230°C, safe for microwave, oven, freezer, and dishwasher.",
+        "Durable, flexible, and unbreakable; foldable design makes it perfect for travel and outdoors.",
+        "Eco-friendly and reusable, a great sustainable alternative to plastic.",
+        "Smooth surface is easy to clean and stain-resistant."
+      ],
+      "ja": [
+        "100％食品グレードのシリコン製で、BPAフリー、無毒、無臭で安全です。",
+        "-40°Cから230°Cまでの耐熱性があり、電子レンジ、オーブン、冷凍庫、食洗機に対応しています。",
+        "耐久性があり、柔軟で割れにくく、折りたたみ可能で旅行やアウトドアに最適です。",
+        "環境に優しく再利用可能で、プラスチックの優れた代替品です。",
+        "表面は滑らかで、洗浄が簡単で汚れが残りにくいです。"
+      ]
+    }
+  },
+  {
+    "id": "61ed7089",
+    "category": "婴童",
+    "subcategory": "喂养",
+    "name": "KP017 硅胶婴儿围兜",
+    "images": [
+      "/assets/images/products/product_26.jpg"
+    ],
+    "name_en": "KP017 Silicone Baby Bib",
+    "name_ja": "KP017 シリコンベビービブ",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶",
+        "风格": "卡通/现代",
+        "尺寸": "30 x 23 cm",
+        "重量": "80g",
+        "特点": "防水/可调节/易清洗",
+        "价格段": "5-10元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone",
+        "Style": "Cartoon/Modern",
+        "Size": "30 x 23 cm",
+        "Weight": "80g",
+        "Features": "Waterproof/Adjustable/Easy Clean",
+        "Price Range": "5-10 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン",
+        "スタイル": "漫画/モダン",
+        "サイズ": "30 x 23 cm",
+        "重量": "80g",
+        "特徴": "防水/調節可能/洗いやすい",
+        "価格帯": "5-10元"
+      }
+    }
+  },
+  {
+    "id": "04c14ba8",
+    "category": "婴童",
+    "subcategory": "喂养",
+    "name": "TT038 婴儿硅胶餐具礼盒套装",
+    "images": [
+      "/assets/images/products/product_27.jpg"
+    ],
+    "name_en": "TT038 Silicone Baby Feeding Gift Set",
+    "name_ja": "TT038 ベビー食器ギフトセット",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶",
+        "包含": "餐盘, 碗, 勺, 叉, 杯",
+        "适用年龄": "6个月+",
+        "包装": "精美礼盒",
+        "价格段": "30-50元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone",
+        "Includes": "Plate, Bowl, Spoon, Fork, Cup",
+        "Age": "6 Months+",
+        "Package": "Gift Box",
+        "Price Range": "30-50 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン",
+        "内容": "プレート, ボウル, スプーン, フォーク, カップ",
+        "対象年齢": "6ヶ月以上",
+        "包装": "ギフトボックス",
+        "価格帯": "30-50元"
+      }
+    }
+  },
+  {
+    "id": "2645533b",
+    "category": "婴童",
+    "subcategory": "喂养",
+    "name": "TT085 & TT086 椭圆吸管碗",
+    "images": [
+      "/assets/images/products/product_28.jpg"
+    ],
+    "name_en": "TT085 & TT086 Oval Silicone Bowl with Straw",
+    "name_ja": "TT085 & TT086 楕円形ストローボウル",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶",
+        "容量": "350ml",
+        "特点": "带吸管/防洒/吸盘底",
+        "适用": "辅食/喝汤",
+        "价格段": "15-25元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone",
+        "Capacity": "350ml",
+        "Features": "With Straw/Spill-proof/Suction Base",
+        "Usage": "Solid Food/Soup",
+        "Price Range": "15-25 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン",
+        "容量": "350ml",
+        "特徴": "ストロー付き/こぼれ防止/吸盤底",
+        "用途": "離乳食/スープ",
+        "価格帯": "15-25元"
+      }
+    }
+  },
+  {
+    "id": "75e5d9f0",
+    "category": "婴童",
+    "subcategory": "喂养",
+    "name": "TT088/TT090/TT091 吸盘餐具套装",
+    "images": [
+      "/assets/images/products/product_29.jpg"
+    ],
+    "name_en": "TT088 Sticky Base Tableware Set",
+    "name_ja": "TT088/TT090/TT091 吸盤付き食器セット",
+    "specs": {
+      "zh": {
+        "材质": "硅胶",
+        "配置": "吸盘碗+勺叉",
+        "特点": "强力吸盘/防打翻",
+        "颜色": "多色可选",
+        "价格段": "20-40元"
+      },
+      "en": {
+        "Material": "Silicone",
+        "Config": "Suction Bowl + Spoon & Fork",
+        "Features": "Strong Suction/Anti-tip",
+        "Colors": "Multi-colors",
+        "Price Range": "20-40 CNY"
+      },
+      "ja": {
+        "材質": "シリコン",
+        "構成": "吸盤ボウル+スプーン・フォーク",
+        "特徴": "強力吸盤/転倒防止",
+        "色": "マルチカラー",
+        "価格帯": "20-40元"
+      }
+    }
+  },
+  {
+    "id": "70312480",
+    "category": "婴童",
+    "subcategory": "喂养",
+    "name": "KP018 寿司图案硅胶围兜",
+    "images": [
+      "/assets/images/products/product_30.jpg"
+    ],
+    "name_en": "KP018 Sushi Pattern Silicone Bib",
+    "name_ja": "KP018 寿司柄シリコンビブ",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶",
+        "图案": "寿司卡通",
+        "尺寸": "30 x 23 cm",
+        "防水": "是",
+        "价格段": "5-10元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone",
+        "Pattern": "Sushi Cartoon",
+        "Size": "30 x 23 cm",
+        "Waterproof": "Yes",
+        "Price Range": "5-10 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン",
+        "柄": "寿司漫画",
+        "サイズ": "30 x 23 cm",
+        "防水": "はい",
+        "価格帯": "5-10元"
+      }
+    }
+  },
+  {
+    "id": "86979e40",
+    "category": "婴童",
+    "subcategory": "喂养",
+    "name": "KP019 面包图案硅胶围兜",
+    "images": [
+      "/assets/images/products/product_31.jpg"
+    ],
+    "name_en": "KP019 Bread Pattern Silicone Bib",
+    "name_ja": "KP019 パン柄シリコンビブ",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶",
+        "图案": "面包卡通",
+        "尺寸": "30 x 23 cm",
+        "防水": "是",
+        "价格段": "5-10元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone",
+        "Pattern": "Bread Cartoon",
+        "Size": "30 x 23 cm",
+        "Waterproof": "Yes",
+        "Price Range": "5-10 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン",
+        "柄": "パン漫画",
+        "サイズ": "30 x 23 cm",
+        "防水": "はい",
+        "価格帯": "5-10元"
+      }
+    }
+  },
+  {
+    "id": "4464dfcd",
+    "category": "婴童",
+    "subcategory": "喂养",
+    "name": "KP020 布丁图案硅胶围兜",
+    "images": [
+      "/assets/images/products/product_32.jpg"
+    ],
+    "name_en": "KP020 Pudding Pattern Silicone Bib",
+    "name_ja": "KP020 プリン柄シリコンビブ",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶",
+        "图案": "布丁卡通",
+        "尺寸": "30 x 23 cm",
+        "防水": "是",
+        "价格段": "5-10元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone",
+        "Pattern": "Pudding Cartoon",
+        "Size": "30 x 23 cm",
+        "Waterproof": "Yes",
+        "Price Range": "5-10 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン",
+        "柄": "プリン漫画",
+        "サイズ": "30 x 23 cm",
+        "防水": "はい",
+        "価格帯": "5-10元"
+      }
+    }
+  },
+  {
+    "id": "082e6082",
+    "category": "婴童",
+    "subcategory": "喂养",
+    "name": "TT052 创意硅胶餐盘",
+    "images": [
+      "/assets/images/products/product_33.jpg"
+    ],
+    "name_en": "TT052 Novel Silicone Plate",
+    "name_ja": "TT052 クリエイティブシリコンプレート",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶",
+        "形状": "创意造型",
+        "分格": "是",
+        "尺寸": "20 x 20 cm",
+        "价格段": "15-25元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone",
+        "Shape": "Creative",
+        "Divided": "Yes",
+        "Size": "20 x 20 cm",
+        "Price Range": "15-25 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン",
+        "形状": "クリエイティブ",
+        "仕切り": "はい",
+        "サイズ": "20 x 20 cm",
+        "価格帯": "15-25元"
+      }
+    }
+  },
+  {
+    "id": "2caa92f6",
+    "category": "婴童",
+    "subcategory": "喂养",
+    "name": "TT053 带吸盘创意硅胶餐盘",
+    "images": [
+      "/assets/images/products/product_34.jpg"
+    ],
+    "name_en": "TT053 Novel Silicone Plate with Suction",
+    "name_ja": "TT053 吸盤付きクリエイティブプレート",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶",
+        "功能": "底部吸盘",
+        "分格": "3格",
+        "适用": "自主进食训练",
+        "价格段": "15-25元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone",
+        "Function": "Suction Base",
+        "Divided": "3 Sections",
+        "Usage": "Self-feeding Training",
+        "Price Range": "15-25 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン",
+        "機能": "吸盤底",
+        "仕切り": "3つ",
+        "用途": "手づかみ食べ練習",
+        "価格帯": "15-25元"
+      }
+    }
+  },
+  {
+    "id": "85b274f1",
+    "category": "婴童",
+    "subcategory": "喂养",
+    "name": "TT050 & TT050-A 硅胶婴儿碗",
+    "images": [
+      "/assets/images/products/product_35.jpg"
+    ],
+    "name_en": "TT050 Silicone Baby Bowl",
+    "name_ja": "TT050 & TT050-A シリコンベビーボウル",
+    "specs": {
+      "zh": {
+        "材质": "不含BPA硅胶",
+        "容量": "300ml",
+        "特点": "耐摔/微波炉可用",
+        "设计": "加高边缘防溢",
+        "价格段": "10-20元"
+      },
+      "en": {
+        "Material": "BPA Free Silicone",
+        "Capacity": "300ml",
+        "Features": "Drop-proof/Microwave Safe",
+        "Design": "High Edge Anti-spill",
+        "Price Range": "10-20 CNY"
+      },
+      "ja": {
+        "材質": "BPAフリーシリコン",
+        "容量": "300ml",
+        "特徴": "耐衝撃/電子レンジ対応",
+        "デザイン": "こぼれ防止高い縁",
+        "価格帯": "10-20元"
+      }
+    }
+  },
+  {
+    "id": "5a15e40e",
+    "category": "婴童",
+    "subcategory": "喂养",
+    "name": "TT044 太阳花造型吸盘餐盘",
+    "images": [
+      "/assets/images/products/product_36.jpg"
+    ],
+    "name_en": "TT044 Sun Shape Suction Plate",
+    "name_ja": "TT044 ひまわり型吸盤プレート",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶",
+        "造型": "太阳花",
+        "吸盘": "强力吸附",
+        "分格": "多格设计",
+        "价格段": "15-25元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone",
+        "Shape": "Sunflower",
+        "Suction": "Strong Adsorption",
+        "Divided": "Multi-section",
+        "Price Range": "15-25 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン",
+        "形状": "ひまわり",
+        "吸盤": "強力吸着",
+        "仕切り": "マルチセクション",
+        "価格帯": "15-25元"
+      }
+    }
+  },
+  {
+    "id": "541a7c9b",
+    "category": "婴童",
+    "subcategory": "喂养",
+    "name": "TT045 星星造型吸盘餐盘",
+    "images": [
+      "/assets/images/products/product_37.jpg"
+    ],
+    "name_en": "TT045 Star Shape Suction Plate",
+    "name_ja": "TT045 星型吸盤プレート",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶",
+        "造型": "星星",
+        "吸盘": "一体式",
+        "尺寸": "适中",
+        "价格段": "15-25元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone",
+        "Shape": "Star",
+        "Suction": "Integrated",
+        "Size": "Medium",
+        "Price Range": "15-25 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン",
+        "形状": "星",
+        "吸盤": "一体型",
+        "サイズ": "中",
+        "価格帯": "15-25元"
+      }
+    }
+  },
+  {
+    "id": "00a3e24a",
+    "category": "婴童",
+    "subcategory": "喂养",
+    "name": "TT046 月亮造型吸盘餐盘",
+    "images": [
+      "/assets/images/products/product_38.jpg"
+    ],
+    "name_en": "TT046 Moon Shape Suction Plate",
+    "name_ja": "TT046 月型吸盤プレート",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶",
+        "造型": "月亮",
+        "吸盘": "防滑底",
+        "风格": "梦幻可爱",
+        "价格段": "15-25元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone",
+        "Shape": "Moon",
+        "Suction": "Non-slip Base",
+        "Style": "Dreamy Cute",
+        "Price Range": "15-25 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン",
+        "形状": "月",
+        "吸盤": "滑り止め底",
+        "スタイル": "ドリーミーキュート",
+        "価格帯": "15-25元"
+      }
+    }
+  },
+  {
+    "id": "a550befe",
+    "category": "婴童",
+    "subcategory": "喂养",
+    "name": "TT021 婴儿吸盘餐具套装",
+    "images": [
+      "/assets/images/products/product_39.jpg"
+    ],
+    "name_en": "TT021 Baby Suction Tableware Set",
+    "name_ja": "TT021 ベビー吸盤食器セット",
+    "specs": {
+      "zh": {
+        "材质": "硅胶",
+        "包含": "分格盘+勺叉",
+        "特点": "笑脸设计",
+        "适用": "6个月以上",
+        "价格段": "20-30元"
+      },
+      "en": {
+        "Material": "Silicone",
+        "Includes": "Divided Plate + Spoon/Fork",
+        "Features": "Smiley Face Design",
+        "Age": "6 Months+",
+        "Price Range": "20-30 CNY"
+      },
+      "ja": {
+        "材質": "シリコン",
+        "内容": "仕切りプレート+スプーン・フォーク",
+        "特徴": "スマイルデザイン",
+        "対象年齢": "6ヶ月以上",
+        "価格帯": "20-30元"
+      }
+    }
+  },
+  {
+    "id": "1d70a000",
+    "category": "婴童",
+    "subcategory": "喂养",
+    "name": "TT014 卡通婴儿硅胶碗",
+    "images": [
+      "/assets/images/products/product_40.jpg"
+    ],
+    "name_en": "TT014 Cartoon Silicone Baby Bowl",
+    "name_ja": "TT014 カートゥーンベビーシリコンボウル",
+    "specs": {
+      "zh": {
+        "材质": "食品级硅胶",
+        "造型": "卡通动物",
+        "容量": "250ml",
+        "耐温": "-40~230℃",
+        "价格段": "10-15元"
+      },
+      "en": {
+        "Material": "Food Grade Silicone",
+        "Shape": "Cartoon Animal",
+        "Capacity": "250ml",
+        "Temp Range": "-40~230℃",
+        "Price Range": "10-15 CNY"
+      },
+      "ja": {
+        "材質": "食品グレードシリコン",
+        "形状": "漫画の動物",
+        "容量": "250ml",
+        "耐熱温度": "-40~230℃",
+        "価格帯": "10-15元"
       }
     }
   }

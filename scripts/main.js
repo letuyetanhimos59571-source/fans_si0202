@@ -86,11 +86,6 @@ document.addEventListener('DOMContentLoaded', () => {
               const dropdown = document.getElementById('nav-product-dropdown');
               if (dropdown) {
                   dropdown.innerHTML = '';
-                  // Glass (Static)
-                  const glassLi = document.createElement('li');
-                  const glassText = i18next.t('category.glass_products') || 'Glass Products';
-                  glassLi.innerHTML = `<a href="/products/?category=Glass Products">${glassText}</a>`;
-                  dropdown.appendChild(glassLi);
                   
                   // Dynamic
                   const cats = new Set(data.map(p => p.category));
