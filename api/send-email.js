@@ -33,19 +33,31 @@ module.exports = async (req, res) => {
     // and instruct the user to configure them in Vercel project settings.
 
     const transporter = nodemailer.createTransport({
-        host: process.env.SMTP_HOST || 'smtp.gmail.com', // Default placeholder
+        host: process.env.SMTP_HOST || 'smtp.qq.com', 
         port: parseInt(process.env.SMTP_PORT || '465'),
-        secure: true,
+        secure: true, // true for 465, false for other ports
         auth: {
             user: process.env.SMTP_USER,
             pass: process.env.SMTP_PASS,
         },
+        debug: true, // Enable debug output
+        logger: true // Log information to console
     });
 
     try {
+        console.log('Attempting to send email with config:', {
+            host: process.env.SMTP_HOST,
+            port: process.env.SMTP_PORT,
+            user: process.env.SMTP_USER ? '***' : 'missing',
+            pass: process.env.SMTP_PASS ? '***' : 'missing'
+        });
+
+        await transporter.verify(); // Verify connection config first
+
         await transporter.sendMail({
-            from: process.env.SMTP_USER, // Sender address
-            to: '1753720535@qq.com', // User's receiving address
+            from: `"${firstName} ${lastName}" <${process.env.SMTP_USER}>`, // Use sender name but auth email
+            replyTo: email, // Set reply-to as the customer's email
+            to: 'fans_sales01@163.com', 
             subject: `New Inquiry from ${firstName} ${lastName}`,
             text: `
                 Name: ${firstName} ${lastName}
